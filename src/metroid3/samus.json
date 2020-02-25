@@ -1,0 +1,4749 @@
+{
+  "border_color": [0,0,127,255],
+  "border_size": 1,
+  "images": [
+    { "name": "palette_block",
+      "layout": [0],
+      "scale": 8,
+      "dimensions": [0,0,15,7],
+      "usage": [["palette_block",0]]
+    },
+
+    { "name": "file_select_head",
+      "layout": [1,1],
+      "dimensions": [0,0,24,24],
+      "palette range": [75,90],
+      "tilemap setting": [0,2],
+      "usage": [["file_select",0]]
+    },
+
+    { "name": "file_select_head1",
+      "parent": "file_select_head",
+      "layout": [1,2],
+      "usage": [["file_select",1]]
+    },
+
+    { "name": "file_select_head2",
+      "parent": "file_select_head",
+      "layout": [1,3],
+      "usage": [["file_select",2]]
+    },
+
+    { "name": "file_select_visor",
+      "layout": [1,4],
+      "dimensions": [4,10,20,18],
+      "palette range": [75,90],
+      "tilemap setting": [0,2],
+      "usage": [["file_select",3]]
+    },
+
+    { "name": "file_select_visor1",
+      "parent": "file_select_visor",
+      "layout": [1,5],
+      "usage": [["file_select",4]]
+    },
+
+    { "name": "file_select_visor2",
+      "parent": "file_select_visor",
+      "layout": [1,6],
+      "usage": [["file_select",5]]
+    },
+
+    { "name": "file_select_visor3",
+      "parent": "file_select_visor",
+      "layout": [1,7],
+      "usage": [["file_select",6]]
+    },
+
+    { "name": "file_select_visor4",
+      "parent": "file_select_visor",
+      "layout": [1,8],
+      "usage": [["file_select",7]]
+    },
+
+    { "name": "file_select_cursor_array",
+      "layout": [1,9],
+      "dimensions": [0,8,16,32],
+      "dimensions+": [[0,0,8,8]],
+      "palette range": [75,90],
+      "tilemap setting": [0,2],
+      "usage": [["file_select",8]]
+    },
+
+    { "name": "file_select_piping",
+      "layout": [1,10],
+      "dimensions": [0,0,24,8],
+      "dimensions+": [[0,16,8,24],[16,8,24,24]],
+      "palette range": [75,90],
+      "tilemap setting": [0,2],
+      "usage": [["file_select",9]]
+    },
+
+    { "name": "gun_port_right_aim_up0",
+      "layout": [2,1],
+      "dimensions": [0,0,8,8],
+      "palette range": [0,15],
+      "usage": [["gun", 0]]
+    },
+
+    { "name": "gun_port_right_aim_diag_up0",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [3,1],
+      "usage": [["gun", 1]]
+    },
+
+    { "name": "gun_port_right0",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [4,1],
+      "usage": [["gun", 2]]
+    },
+
+    { "name": "gun_port_right_aim_diag_down0",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [5,1],
+      "usage": [["gun", 3]]
+    },
+
+    { "name": "gun_port_rigth_aim_down0",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [6,1],
+      "usage": [["gun", 4]]
+    },
+
+    { "name": "gun_port_left_aim_down0",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [6,-1],
+      "usage": [["gun", 5]]
+    },
+
+    { "name": "gun_port_left_aim_diag_down0",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [5,-1],
+      "usage": [["gun", 6]]
+    },
+
+    { "name": "gun_port_left0",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [4,-1],
+      "usage": [["gun", 7]]
+    },
+
+    { "name": "gun_port_left_aim_diag_up0",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [3,-1],
+      "usage": [["gun", 8]]
+    },
+
+    { "name": "gun_port_left_aim_up0",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [2,-1],
+      "usage": [["gun", 9]]
+    },
+
+    { "name": "gun_port_right_aim_up1",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [2,2],
+      "usage": [["gun", 10]]
+    },
+
+    { "name": "gun_port_right_aim_diag_up1",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [3,2],
+      "usage": [["gun", 11]]
+    },
+
+    { "name": "gun_port_right1",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [4,2],
+      "usage": [["gun", 12]]
+    },
+
+    { "name": "gun_port_right_aim_diag_down1",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [5,2],
+      "usage": [["gun", 13]]
+    },
+
+    { "name": "gun_port_right_aim_down1",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [6,2],
+      "usage": [["gun", 14]]
+    },
+
+    { "name": "gun_port_left_aim_down1",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [6,-2],
+      "usage": [["gun", 15]]
+    },
+
+    { "name": "gun_port_left_aim_diag_down1",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [5,-2],
+      "usage": [["gun", 16]]
+    },
+
+    { "name": "gun_port_left1",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [4,-2],
+      "usage": [["gun", 17]]
+    },
+
+    { "name": "gun_port_left_aim_diag_up1",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [3,-2],
+      "usage": [["gun", 18]]
+    },
+
+    { "name": "gun_port_left_aim_up1",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [2,-2],
+      "usage": [["gun", 19]]
+    },
+
+    { "name": "gun_port_right_aim_up2",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [2,3],
+      "usage": [["gun", 20]]
+    },
+
+    { "name": "gun_port_right_aim_diag_up2",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [3,3],
+      "usage": [["gun", 21]]
+    },
+
+    { "name": "gun_port_right2",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [4,3],
+      "usage": [["gun", 22]]
+    },
+
+    { "name": "gun_port_right_aim_diag_down2",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [5,3],
+      "usage": [["gun", 23]]
+    },
+
+    { "name": "gun_port_right_aim_down2",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [6,3],
+      "usage": [["gun", 24]]
+    },
+
+    { "name": "gun_port_left_aim_down2",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [6,-3],
+      "usage": [["gun", 25]]
+    },
+
+    { "name": "gun_port_left_aim_diag_down2",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [5,-3],
+      "usage": [["gun", 26]]
+    },
+
+    { "name": "gun_port_left2",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [4,-3],
+      "usage": [["gun", 27]]
+    },
+
+    { "name": "gun_port_left_aim_diag_up2",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [3,-3],
+      "usage": [["gun", 28]]
+    },
+
+    { "name": "gun_port_left_aim_up2",
+      "parent": "gun_port_right_aim_up0",
+      "layout": [2,-3],
+      "usage": [["gun", 29]]
+    },
+
+    { "name": "elevator",
+      "layout": [7,-1],
+      "shift": [0,-7],
+      "dimensions": [-17,-24,15,32],
+      "palette range": [0,15],
+      "dma": [13,17],
+      "usage": [["0x00",0]]
+    },
+
+    { "name": "launcher",
+      "layout": [7,-2],
+      "dimensions": [-16,-31,16,25],
+      "palette range": [0,15],
+      "tilemap setting": [4,3],
+      "dma": [13,18],
+      "usage": [
+                    ["0x00", 3],["0x00", 5],["0x00", 7],["0x00", 9],
+        ["0x00",11],["0x00",13],["0x00",15],["0x00",17],["0x00",19],
+        ["0x00",21],["0x00",23],["0x00",25],["0x00",27],["0x00",29],
+        ["0x00",31],["0x00",33],["0x00",35],["0x00",37],["0x00",39],
+        ["0x00",41],["0x00",43],["0x00",45],["0x00",47],["0x00",49],
+        ["0x00",51],["0x00",53],["0x00",55],["0x00",57],["0x00",59],
+        ["0x00",61],["0x00",63],["0x00",65],["0x00",67],["0x00",69],
+        ["0x00",71],["0x00",73],["0x00",75],["0x00",77],["0x00",79],
+        ["0x00",81],["0x00",83],["0x00",85],["0x00",87],["0x00",89],
+        ["0x00",91],["0x00",93],["0x00",95]
+      ]
+    },
+
+    { "name": "launcher1",
+      "parent": "launcher",
+      "layout": [7,-3],
+      "dma": [13,19],
+      "usage": [
+        ["0x00", 2],["0x00", 8],["0x00",14],["0x00",20],["0x00",26],
+        ["0x00",32],["0x00",38],["0x00",44],["0x00",50],["0x00",56],
+        ["0x00",62],["0x00",68],["0x00",74]
+      ]
+    },
+
+    { "name": "launcher2",
+      "parent": "launcher",
+      "layout": [7,-4],
+      "dma": [13,20],
+      "usage": [
+        ["0x00", 4],["0x00",10],["0x00",16],["0x00",22],["0x00",28],
+        ["0x00",34],["0x00",40],["0x00",46],["0x00",52],["0x00",58],
+        ["0x00",64],["0x00",70],["0x00",76]
+      ]
+    },
+
+    { "name": "launcher3",
+      "parent": "launcher",
+      "layout": [7,-5],
+      "dma": [13,21],
+      "usage": [
+        ["0x00", 6],["0x00",12],["0x00",18],["0x00",24],["0x00",30],
+        ["0x00",36],["0x00",42],["0x00",48],["0x00",54],["0x00",60],
+        ["0x00",66],["0x00",72],["0x00",78]
+      ]
+    },
+
+    { "name": "launcher4",
+      "parent": "launcher",
+      "layout": [7,-6],
+      "dma": [13,22],
+      "usage": [["0x00",80]]
+    },
+
+    { "name": "launcher5",
+      "parent": "launcher",
+      "layout": [7,-7],
+      "dma": [13,23],
+      "usage": [["0x00",82]]
+    },
+
+    { "name": "launcher6",
+      "parent": "launcher",
+      "layout": [7,-8],
+      "dma": [13,24],
+      "usage": [["0x00",84], ["0x00",90]]
+    },
+
+    { "name": "launcher7",
+      "parent": "launcher",
+      "layout": [7,-9],
+      "dma": [13,25],
+      "usage": [["0x00",86], ["0x00",92]]
+    },
+
+    { "name": "launcher8",
+      "parent": "launcher",
+      "layout": [7,-10],
+      "dma": [13,26],
+      "usage": [["0x00",88], ["0x00",94]]
+    },
+
+    { "name": "elevator_varia",
+      "parent": "elevator",
+      "layout": [7,1],
+      "dma": [13,27],
+      "usage": [["0x9B",0]]
+    },
+
+    { "name": "launcher_varia",
+      "parent": "launcher",
+      "layout": [7,2],
+      "tilemap setting": [4,3],
+      "dma": [13,28],
+      "usage": [
+                    ["0x9B", 3],["0x9B", 5],["0x9B", 7],["0x9B", 9],
+        ["0x9B",11],["0x9B",13],["0x9B",15],["0x9B",17],["0x9B",19],
+        ["0x9B",21],["0x9B",23],["0x9B",25],["0x9B",27],["0x9B",29],
+        ["0x9B",31],["0x9B",33],["0x9B",35],["0x9B",37],["0x9B",39],
+        ["0x9B",41],["0x9B",43],["0x9B",45],["0x9B",47],["0x9B",49],
+        ["0x9B",51],["0x9B",53],["0x9B",55],["0x9B",57],["0x9B",59],
+        ["0x9B",61],["0x9B",63],["0x9B",65],["0x9B",67],["0x9B",69],
+        ["0x9B",71],["0x9B",73],["0x9B",75],["0x9B",77],["0x9B",79],
+        ["0x9B",81],["0x9B",83],["0x9B",85],["0x9B",87],["0x9B",89],
+        ["0x9B",91],["0x9B",93],["0x9B",95]
+      ]
+    },
+
+    { "name": "launcher1_varia",
+      "parent": "launcher_varia",
+      "layout": [7,3],
+      "dma": [13,29],
+      "usage": [
+        ["0x9B", 2],["0x9B", 8],["0x9B",14],["0x9B",20],["0x9B",26],
+        ["0x9B",32],["0x9B",38],["0x9B",44],["0x9B",50],["0x9B",56],
+        ["0x9B",62],["0x9B",68],["0x9B",74]
+      ]
+    },
+
+    { "name": "launcher2_varia",
+      "parent": "launcher_varia",
+      "layout": [7,4],
+      "dma": [13,30],
+      "usage": [
+        ["0x9B", 4],["0x9B",10],["0x9B",16],["0x9B",22],["0x9B",28],
+        ["0x9B",34],["0x9B",40],["0x9B",46],["0x9B",52],["0x9B",58],
+        ["0x9B",64],["0x9B",70],["0x9B",76]
+      ]
+    },
+
+    { "name": "launcher3_varia",
+      "parent": "launcher_varia",
+      "layout": [7,5],
+      "dma": [13,31],
+      "usage": [
+        ["0x9B", 6],["0x9B",12],["0x9B",18],["0x9B",24],["0x9B",30],
+        ["0x9B",36],["0x9B",42],["0x9B",48],["0x9B",54],["0x9B",60],
+        ["0x9B",66],["0x9B",72],["0x9B",78]
+      ]
+    },
+
+    { "name": "launcher4_varia",
+      "parent": "launcher_varia",
+      "layout": [7,6],
+      "dma": [13,32],
+      "usage": [["0x9B",80]]
+    },
+
+    { "name": "launcher5_varia",
+      "parent": "launcher_varia",
+      "layout": [7,7],
+      "dma": [13,33],
+      "usage": [["0x9B",82]]
+    },
+
+    { "name": "launcher6_varia",
+      "parent": "launcher_varia",
+      "layout": [7,8],
+      "dma": [13,34],
+      "usage": [["0x9B",84], ["0x9B",90]]
+    },
+
+    { "name": "launcher7_varia",
+      "parent": "launcher_varia",
+      "layout": [7,9],
+      "dma": [13,35],
+      "usage": [["0x9B",86], ["0x9B",92]]
+    },
+
+    { "name": "launcher8_varia",
+      "parent": "launcher_varia",
+      "layout": [7,10],
+      "dma": [13,36],
+      "usage": [["0x9B",88], ["0x9B",94]]
+    },
+
+    { "name": "stand_left",
+      "layout": [9,-2],
+      "dimensions": [-19,-21,13,27],
+      "palette range": [0,15],
+      "dma": [0,0],
+      "usage": [["0x02",0],["0x8A",0]]
+    },
+
+    { "name": "stand_left1",
+      "parent": "stand_left",
+      "layout": [9,-3],
+      "dma": [0,1],
+      "usage": [["0x02",1]]
+    },
+
+    { "name": "stand_left2",
+      "parent": "stand_left",
+      "layout": [9,-4],
+      "dma": [0,2],
+      "usage": [["0x02",2]]
+    },
+
+    { "name": "stand_left3",
+      "parent": "stand_left",
+      "layout": [9,-5],
+      "dma": [0,3],
+      "usage": [["0x02",3]]
+    },
+
+    { "name": "stand_left_heavy",
+      "parent": "stand_left",
+      "layout": [9,-6],
+      "dma": [0,4],
+      "usage": [["0x02",5]]
+    },
+
+    { "name": "stand_left_heavy1",
+      "parent": "stand_left_heavy",
+      "layout": [9,-7],
+      "dma": [0,5],
+      "usage": [["0x02",6]]
+    },
+
+    { "name": "stand_left_heavy2",
+      "parent": "stand_left_heavy",
+      "layout": [9,-8],
+      "dma": [0,6],
+      "usage": [["0x02",7]]
+    },
+
+    { "name": "stand_left_heavy3",
+      "parent": "stand_left_heavy",
+      "layout": [9,-9],
+      "dma": [0,7],
+      "usage": [["0x02",8]]
+    },
+
+    { "name": "stand_right",
+      "layout": [9,2],
+      "dimensions": [-13,-21,19,27],
+      "palette range": [0,15],
+      "dma": [6,0],
+      "usage": [["0x01",0],["0x89",0]]
+    },
+
+    { "name": "stand_right1",
+      "parent": "stand_right",
+      "layout": [9,3],
+      "dma": [6,1],
+      "usage": [["0x01",1]]
+    },
+
+    { "name": "stand_right2",
+      "parent": "stand_right",
+      "layout": [9,4],
+      "dma": [6,2],
+      "usage": [["0x01",2]]
+    },
+
+    { "name": "stand_right3",
+      "parent": "stand_right",
+      "layout": [9,5],
+      "dma": [6,3],
+      "usage": [["0x01",3]]
+    },
+
+    { "name": "stand_right_heavy",
+      "parent": "stand_right",
+      "layout": [9,6],
+      "dma": [6,4],
+      "usage": [["0x01",5]]
+    },
+
+    { "name": "stand_right_heavy1",
+      "parent": "stand_right_heavy",
+      "layout": [9,7],
+      "dma": [6,5],
+      "usage": [["0x01",6]]
+    },
+
+    { "name": "stand_right_heavy2",
+      "parent": "stand_right_heavy",
+      "layout": [9,8],
+      "dma": [6,6],
+      "usage": [["0x01",7]]
+    },
+
+    { "name": "stand_right_heavy3",
+      "parent": "stand_right_heavy",
+      "layout": [9,9],
+      "dma": [6,7],
+      "usage": [["0x01",8]]
+    },
+
+    { "name": "stand_left_aim_up",
+      "layout": [8,-3],
+      "dimensions": [-19,-29,13,27],
+      "palette range": [0,15],
+      "dma": [0,8],
+      "usage": [["0x04",1]]
+    },
+
+    { "name": "stand_left_aim_diag_up",
+      "layout": [8,-2],
+      "dimensions": [-27,-21,13,27],
+      "dimensions+": [[-27,-29,-11,-21]],
+      "palette range": [0,15],
+      "dma": [0,9],
+      "usage": [["0x04",0],["0x06",0],["0xD0",0]]
+    },
+
+    { "name": "stand_right_aim_up",
+      "layout": [8,3],
+      "dimensions": [-13,-29,19,27],
+      "palette range": [0,15],
+      "dma": [6,8],
+      "usage": [["0x03",1]]
+    },
+
+    { "name": "stand_right_aim_diag_up",
+      "layout": [8,2],
+      "dimensions": [-13,-21,27,27],
+      "dimensions+": [[11,-29,27,-21]],
+      "palette range": [0,15],
+      "dma": [6,9],
+      "usage": [["0x03",0],["0x05",0],["0xCF",0]]
+    },
+
+    { "name": "stand_turn_left_aim_up",
+      "parent": "stand_turn_left",
+      "layout": [8,-1],
+      "dma": [3,25],
+      "usage": [["0x8B",2],["0x9C",2],["0x8C",0],["0x9D",0],["0xC1",2],["0xC2",0]]
+    },
+
+    { "name": "stand_turn_neutral_aim_up",
+      "parent": "stand_turn_neutral",
+      "layout": [8,0],
+      "dma": [12,25],
+      "usage": [["0x8B",1],["0x9C",1],["0x8C",1],["0x9D",1],["0xC1",1],["0xC2",1]]
+    },
+
+    { "name": "stand_turn_right_aim_up",
+      "parent": "stand_turn_right",
+      "layout": [8,1],
+      "dma": [9,25],
+      "usage": [["0x8B",0],["0x9C",0],["0x8C",2],["0x9D",2],["0xC1",0],["0xC2",2]]
+    },
+
+    { "name": "stand_left_aim_diag_down",
+      "parent": "stand_left_aim_diag_up",
+      "layout": [10,-2],
+      "dma": [0,10],
+      "usage": [["0x08",0],["0xD2",0]]
+    },
+
+    { "name": "stand_right_aim_diag_down",
+      "parent": "stand_right_aim_diag_up",
+      "layout": [10,2],
+      "dma": [6,10],
+      "usage": [["0x07",0],["0xD1",0]]
+    },
+
+    { "name": "stand_turn_left_aim_down",
+      "parent": "stand_turn_left",
+      "layout": [10,-1],
+      "dma": [3,26],
+      "usage": [["0x8D",2],["0x8E",0],["0xC3",2],["0xC4",0]]
+    },
+
+    { "name": "stand_turn_neutral_aim_down",
+      "parent": "stand_turn_neutral",
+      "layout": [10,0],
+      "dma": [12,26],
+      "usage": [["0x8D",1],["0x8E",1],["0xC3",1],["0xC4",1]]
+    },
+
+    { "name": "stand_turn_right_aim_down",
+      "parent": "stand_turn_right",
+      "layout": [10,1],
+      "dma": [9,26],
+      "usage": [["0x8D",0],["0x8E",2],["0xC3",0],["0xC4",2]]
+    },
+
+    { "name": "crouch_left",
+      "layout": [12,-2],
+      "dimensions": [-19,-24,13,16],
+      "palette range": [0,15],
+      "dma": [5,27],
+      "usage": [["0x28",0],["0xB5",0]]
+    },
+
+    { "name": "crouch_left1",
+      "parent": "crouch_left",
+      "layout": [12,-3],
+      "dma": [5,28],
+      "usage": [["0x28",1]]
+    },
+
+    { "name": "crouch_left2",
+      "parent": "crouch_left",
+      "layout": [12,-4],
+      "dma": [5,29],
+      "usage": [["0x28",2]]
+    },
+
+    { "name": "crouch_left3",
+      "parent": "crouch_left",
+      "layout": [12,-5],
+      "dma": [5,30],
+      "usage": [["0x28",3]]
+    },
+
+    { "name": "crouch_left_heavy",
+      "parent": "crouch_left",
+      "layout": [12,-6],
+      "dma": [5,31],
+      "usage": [["0x28",5]]
+    },
+
+    { "name": "crouch_left_heavy1",
+      "parent": "crouch_left_heavy",
+      "layout": [12,-7],
+      "dma": [5,32],
+      "usage": [["0x28",6]]
+    },
+
+    { "name": "crouch_left_heavy2",
+      "parent": "crouch_left_heavy",
+      "layout": [12,-8],
+      "dma": [5,33],
+      "usage": [["0x28",7]]
+    },
+
+    { "name": "crouch_left_heavy3",
+      "parent": "crouch_left_heavy",
+      "layout": [12,-9],
+      "dma": [5,34],
+      "usage": [["0x28",8]]
+    },
+
+    { "name": "crouch_right",
+      "layout": [12,2],
+      "dimensions": [-13,-24,19,16],
+      "palette range": [0,15],
+      "dma": [11,27],
+      "usage": [["0x27",0],["0xB4",0]]
+    },
+
+    { "name": "crouch_right1",
+      "parent": "crouch_right",
+      "layout": [12,3],
+      "dma": [11,28],
+      "usage": [["0x27",1]]
+    },
+
+    { "name": "crouch_right2",
+      "parent": "crouch_right",
+      "layout": [12,4],
+      "dma": [11,29],
+      "usage": [["0x27",2]]
+    },
+
+    { "name": "crouch_right3",
+      "parent": "crouch_right",
+      "layout": [12,5],
+      "dma": [11,30],
+      "usage": [["0x27",3]]
+    },
+
+    { "name": "crouch_right_heavy",
+      "parent": "crouch_right",
+      "layout": [12,6],
+      "dma": [11,31],
+      "usage": [["0x27",5]]
+    },
+
+    { "name": "crouch_right_heavy1",
+      "parent": "crouch_right_heavy",
+      "layout": [12,7],
+      "dma": [11,32],
+      "usage": [["0x27",6]]
+    },
+
+    { "name": "crouch_right_heavy2",
+      "parent": "crouch_right_heavy",
+      "layout": [12,8],
+      "dma": [11,33],
+      "usage": [["0x27",7]]
+    },
+
+    { "name": "crouch_right_heavy3",
+      "parent": "crouch_right_heavy",
+      "layout": [12,9],
+      "dma": [11,34],
+      "usage": [["0x27",8]]
+    },
+
+    { "name": "run_left",
+      "dimensions": [-22,-21,18,27],
+      "layout": [14,-1],
+      "dma": [0,11],
+      "palette range": [0,15],
+      "usage": [["0x0A",0]]
+    },
+
+    { "name": "run_left1",
+      "parent": "run_left",
+      "layout": [14,-2],
+      "dma": [0,12],
+      "usage": [["0x0A",1]]
+    },
+
+    { "name": "run_left2",
+      "parent": "run_left",
+      "layout": [14,-3],
+      "dma": [0,13],
+      "usage": [["0x0A",2]]
+    },
+
+    { "name": "run_left3",
+      "parent": "run_left",
+      "layout": [14,-4],
+      "dma": [0,14],
+      "usage": [["0x0A",3]]
+    },
+
+    { "name": "run_left4",
+      "parent": "run_left",
+      "layout": [14,-5],
+      "dma": [0,15],
+      "usage": [["0x0A",4]]
+    },
+
+    { "name": "run_left5",
+      "parent": "run_left",
+      "layout": [14,-6],
+      "dma": [0,16],
+      "usage": [["0x0A",5]]
+    },
+
+    { "name": "run_left6",
+      "parent": "run_left",
+      "layout": [14,-7],
+      "dma": [0,17],
+      "usage": [["0x0A",6]]
+    },
+
+    { "name": "run_left7",
+      "parent": "run_left",
+      "layout": [14,-8],
+      "dma": [0,18],
+      "usage": [["0x0A",7]]
+    },
+
+    { "name": "run_left8",
+      "parent": "run_left",
+      "layout": [14,-9],
+      "dma": [0,19],
+      "usage": [["0x0A",8]]
+    },
+
+    { "name": "run_left9",
+      "parent": "run_left",
+      "layout": [14,-10],
+      "dma": [0,20],
+      "usage": [["0x0A",9]]
+    },
+
+    { "name": "run_right",
+      "layout": [14,1],
+      "dimensions": [-18,-21,22,27],
+      "palette range": [0,15],
+      "dma": [6,11],
+      "usage": [["0x09",0]]
+    },
+
+    { "name": "run_right1",
+      "parent": "run_right",
+      "layout": [14,2],
+      "dma": [6,12],
+      "usage": [["0x09",1]]
+    },
+
+    { "name": "run_right2",
+      "parent": "run_right",
+      "layout": [14,3],
+      "dma": [6,13],
+      "usage": [["0x09",2]]
+    },
+
+    { "name": "run_right3",
+      "parent": "run_right",
+      "layout": [14,4],
+      "dma": [6,14],
+      "usage": [["0x09",3]]
+    },
+
+    { "name": "run_right4",
+      "parent": "run_right",
+      "layout": [14,5],
+      "dma": [6,15],
+      "usage": [["0x09",4]]
+    },
+
+    { "name": "run_right5",
+      "parent": "run_right",
+      "layout": [14,6],
+      "dma": [6,16],
+      "usage": [["0x09",5]]
+    },
+
+    { "name": "run_right6",
+      "parent": "run_right",
+      "layout": [14,7],
+      "dma": [6,17],
+      "usage": [["0x09",6]]
+    },
+
+    { "name": "run_right7",
+      "parent": "run_right",
+      "layout": [14,8],
+      "dma": [6,18],
+      "usage": [["0x09",7]]
+    },
+
+    { "name": "run_right8",
+      "parent": "run_right",
+      "layout": [14,9],
+      "dma": [6,19],
+      "usage": [["0x09",8]]
+    },
+
+    { "name": "run_right9",
+      "parent": "run_right",
+      "layout": [14,10],
+      "dma": [6,20],
+      "usage": [["0x09",9]]
+    },
+
+    { "name": "run_left_shooting",
+      "parent": "run_left",
+      "layout": [16,-1],
+      "dma": [1,6],
+      "usage": [["0x0C",0]]
+    },
+
+    { "name": "run_left_shooting1",
+      "parent": "run_left_shooting",
+      "layout": [16,-2],
+      "dma": [1,7],
+      "usage": [["0x0C",1]]
+    },
+
+    { "name": "run_left_shooting2",
+      "parent": "run_left_shooting",
+      "layout": [16,-3],
+      "dma": [1,8],
+      "usage": [["0x0C",2]]
+    },
+
+    { "name": "run_left_shooting3",
+      "parent": "run_left_shooting",
+      "layout": [16,-4],
+      "dma": [1,9],
+      "usage": [["0x0C",3]]
+    },
+
+    { "name": "run_left_shooting4",
+      "parent": "run_left_shooting",
+      "layout": [16,-5],
+      "dma": [1,10],
+      "usage": [["0x0C",4]]
+    },
+
+    { "name": "run_left_shooting5",
+      "parent": "run_left_shooting",
+      "layout": [16,-6],
+      "dma": [1,11],
+      "usage": [["0x0C",5]]
+    },
+
+    { "name": "run_left_shooting6",
+      "parent": "run_left_shooting",
+      "layout": [16,-7],
+      "dma": [1,12],
+      "usage": [["0x0C",6]]
+    },
+
+    { "name": "run_left_shooting7",
+      "parent": "run_left_shooting",
+      "layout": [16,-8],
+      "dma": [1,13],
+      "usage": [["0x0C",7]]
+    },
+
+    { "name": "run_left_shooting8",
+      "parent": "run_left_shooting",
+      "layout": [16,-9],
+      "dma": [1,14],
+      "usage": [["0x0C",8]]
+    },
+
+    { "name": "run_left_shooting9",
+      "parent": "run_left_shooting",
+      "layout": [16,-10],
+      "dma": [1,15],
+      "usage": [["0x0C",9]]
+    },
+
+    { "name": "run_right_shooting",
+      "parent": "run_right",
+      "layout": [16,1],
+      "dma": [7,6],
+      "usage": [["0x0B",0]]
+    },
+
+    { "name": "run_right_shooting1",
+      "parent": "run_right_shooting",
+      "layout": [16,2],
+      "dma": [7,7],
+      "usage": [["0x0B",1]]
+    },
+
+    { "name": "run_right_shooting2",
+      "parent": "run_right_shooting",
+      "layout": [16,3],
+      "dma": [7,8],
+      "usage": [["0x0B",2]]
+    },
+
+    { "name": "run_right_shooting3",
+      "parent": "run_right_shooting",
+      "layout": [16,4],
+      "dma": [7,9],
+      "usage": [["0x0B",3]]
+    },
+
+    { "name": "run_right_shooting4",
+      "parent": "run_right_shooting",
+      "layout": [16,5],
+      "dma": [7,10],
+      "usage": [["0x0B",4]]
+    },
+
+    { "name": "run_right_shooting5",
+      "parent": "run_right_shooting",
+      "layout": [16,6],
+      "dma": [7,11],
+      "usage": [["0x0B",5]]
+    },
+
+    { "name": "run_right_shooting6",
+      "parent": "run_right_shooting",
+      "layout": [16,7],
+      "dma": [7,12],
+      "usage": [["0x0B",6]]
+    },
+
+    { "name": "run_right_shooting7",
+      "parent": "run_right_shooting",
+      "layout": [16,8],
+      "dma": [7,13],
+      "usage": [["0x0B",7]]
+    },
+
+    { "name": "run_right_shooting8",
+      "parent": "run_right_shooting",
+      "layout": [16,9],
+      "dma": [7,14],
+      "usage": [["0x0B",8]]
+    },
+
+    { "name": "run_right_shooting9",
+      "parent": "run_right_shooting",
+      "layout": [16,10],
+      "dma": [7,15],
+      "usage": [["0x0B",9]]
+    },
+
+    { "name": "run_left_aim_diag_up",
+      "parent": "run_left",
+      "layout": [15,-1],
+      "dimensions+": [[-22,-29,-6,-21]],
+      "dma": [0,21],
+      "usage": [["0x10",0]]
+    },
+
+    { "name": "run_left_aim_diag_up1",
+      "parent": "run_left_aim_diag_up",
+      "layout": [15,-2],
+      "dma": [0,22],
+      "usage": [["0x10",1]]
+    },
+
+    { "name": "run_left_aim_diag_up2",
+      "parent": "run_left_aim_diag_up",
+      "layout": [15,-3],
+      "dma": [0,23],
+      "usage": [["0x10",2]]
+    },
+
+    { "name": "run_left_aim_diag_up3",
+      "parent": "run_left_aim_diag_up",
+      "layout": [15,-4],
+      "dma": [0,24],
+      "usage": [["0x10",3]]
+    },
+
+    { "name": "run_left_aim_diag_up4",
+      "parent": "run_left_aim_diag_up",
+      "layout": [15,-5],
+      "dma": [0,25],
+      "usage": [["0x10",4]]
+    },
+
+    { "name": "run_left_aim_diag_up5",
+      "parent": "run_left_aim_diag_up",
+      "layout": [15,-6],
+      "dma": [0,26],
+      "usage": [["0x10",5]]
+    },
+
+    { "name": "run_left_aim_diag_up6",
+      "parent": "run_left_aim_diag_up",
+      "layout": [15,-7],
+      "dma": [0,27],
+      "usage": [["0x10",6]]
+    },
+
+    { "name": "run_left_aim_diag_up7",
+      "parent": "run_left_aim_diag_up",
+      "layout": [15,-8],
+      "dma": [0,28],
+      "usage": [["0x10",7]]
+    },
+
+    { "name": "run_left_aim_diag_up8",
+      "parent": "run_left_aim_diag_up",
+      "layout": [15,-9],
+      "dma": [0,29],
+      "usage": [["0x10",8]]
+    },
+
+    { "name": "run_left_aim_diag_up9",
+      "parent": "run_left_aim_diag_up",
+      "layout": [15,-10],
+      "dma": [0,30],
+      "usage": [["0x10",9]]
+    },
+
+    { "name": "run_right_aim_diag_up",
+      "parent": "run_right",
+      "layout": [15,1],
+      "dimensions+": [[6,-29,22,-21]],
+      "dma": [6,21],
+      "usage": [["0x0F",0]]
+    },
+
+    { "name": "run_right_aim_diag_up1",
+      "parent": "run_right_aim_diag_up",
+      "layout": [15,2],
+      "dma": [6,22],
+      "usage": [["0x0F",1]]
+    },
+
+    { "name": "run_right_aim_diag_up2",
+      "parent": "run_right_aim_diag_up",
+      "layout": [15,3],
+      "dma": [6,23],
+      "usage": [["0x0F",2]]
+    },
+
+    { "name": "run_right_aim_diag_up3",
+      "parent": "run_right_aim_diag_up",
+      "layout": [15,4],
+      "dma": [6,24],
+      "usage": [["0x0F",3]]
+    },
+
+    { "name": "run_right_aim_diag_up4",
+      "parent": "run_right_aim_diag_up",
+      "layout": [15,5],
+      "dma": [6,25],
+      "usage": [["0x0F",4]]
+    },
+
+    { "name": "run_right_aim_diag_up5",
+      "parent": "run_right_aim_diag_up",
+      "layout": [15,6],
+      "dma": [6,26],
+      "usage": [["0x0F",5]]
+    },
+
+    { "name": "run_right_aim_diag_up6",
+      "parent": "run_right_aim_diag_up",
+      "layout": [15,7],
+      "dma": [6,27],
+      "usage": [["0x0F",6]]
+    },
+
+    { "name": "run_right_aim_diag_up7",
+      "parent": "run_right_aim_diag_up",
+      "layout": [15,8],
+      "dma": [6,28],
+      "usage": [["0x0F",7]]
+    },
+
+    { "name": "run_right_aim_diag_up8",
+      "parent": "run_right_aim_diag_up",
+      "layout": [15,9],
+      "dma": [6,29],
+      "usage": [["0x0F",8]]
+    },
+
+    { "name": "run_right_aim_diag_up9",
+      "parent": "run_right_aim_diag_up",
+      "layout": [15,10],
+      "dma": [6,30],
+      "usage": [["0x0F",9]]
+    },
+
+    { "name": "run_left_aim_diag_down",
+      "parent": "run_left",
+      "layout": [17,-1],
+      "dma": [0,31],
+      "usage": [["0x12",0]]
+    },
+
+    { "name": "run_left_aim_diag_down1",
+      "parent": "run_left_aim_diag_down",
+      "layout": [17,-2],
+      "dma": [0,32],
+      "usage": [["0x12",1]]
+    },
+
+    { "name": "run_left_aim_diag_down2",
+      "parent": "run_left_aim_diag_down",
+      "layout": [17,-3],
+      "dma": [0,33],
+      "usage": [["0x12",2]]
+    },
+
+    { "name": "run_left_aim_diag_down3",
+      "parent": "run_left_aim_diag_down",
+      "layout": [17,-4],
+      "dma": [0,34],
+      "usage": [["0x12",3]]
+    },
+
+    { "name": "run_left_aim_diag_down4",
+      "parent": "run_left_aim_diag_down",
+      "layout": [17,-5],
+      "dma": [1,0],
+      "usage": [["0x12",4]]
+    },
+
+    { "name": "run_left_aim_diag_down5",
+      "parent": "run_left_aim_diag_down",
+      "layout": [17,-6],
+      "dma": [1,1],
+      "usage": [["0x12",5]]
+    },
+
+    { "name": "run_left_aim_diag_down6",
+      "parent": "run_left_aim_diag_down",
+      "layout": [17,-7],
+      "dma": [1,2],
+      "usage": [["0x12",6]]
+    },
+
+    { "name": "run_left_aim_diag_down7",
+      "parent": "run_left_aim_diag_down",
+      "layout": [17,-8],
+      "dma": [1,3],
+      "usage": [["0x12",7]]
+    },
+
+    { "name": "run_left_aim_diag_down8",
+      "parent": "run_left_aim_diag_down",
+      "layout": [17,-9],
+      "dma": [1,4],
+      "usage": [["0x12",8]]
+    },
+
+    { "name": "run_left_aim_diag_down9",
+      "parent": "run_left_aim_diag_down",
+      "layout": [17,-10],
+      "dma": [1,5],
+      "usage": [["0x12",9]]
+    },
+
+    { "name": "run_right_aim_diag_down",
+      "parent": "run_right",
+      "layout": [17,1],
+      "dma": [6,31],
+      "usage": [["0x11",0]]
+    },
+
+    { "name": "run_right_aim_diag_down1",
+      "parent": "run_right_aim_diag_down",
+      "layout": [17,2],
+      "dma": [6,32],
+      "usage": [["0x11",1]]
+    },
+
+    { "name": "run_right_aim_diag_down2",
+      "parent": "run_right_aim_diag_down",
+      "layout": [17,3],
+      "dma": [6,33],
+      "usage": [["0x11",2]]
+    },
+
+    { "name": "run_right_aim_diag_down3",
+      "parent": "run_right_aim_diag_down",
+      "layout": [17,4],
+      "dma": [6,34],
+      "usage": [["0x11",3]]
+    },
+
+    { "name": "run_right_aim_diag_down4",
+      "parent": "run_right_aim_diag_down",
+      "layout": [17,5],
+      "dma": [7,0],
+      "usage": [["0x11",4]]
+    },
+
+    { "name": "run_right_aim_diag_down5",
+      "parent": "run_right_aim_diag_down",
+      "layout": [17,6],
+      "dma": [7,1],
+      "usage": [["0x11",5]]
+    },
+
+    { "name": "run_right_aim_diag_down6",
+      "parent": "run_right_aim_diag_down",
+      "layout": [17,7],
+      "dma": [7,2],
+      "usage": [["0x11",6]]
+    },
+
+    { "name": "run_right_aim_diag_down7",
+      "parent": "run_right_aim_diag_down",
+      "layout": [17,8],
+      "dma": [7,3],
+      "usage": [["0x11",7]]
+    },
+
+    { "name": "run_right_aim_diag_down8",
+      "parent": "run_right_aim_diag_down",
+      "layout": [17,9],
+      "dma": [7,4],
+      "usage": [["0x11",8]]
+    },
+
+    { "name": "run_right_aim_diag_down9",
+      "parent": "run_right_aim_diag_down",
+      "layout": [17,10],
+      "dma": [7,5],
+      "usage": [["0x11",9]]
+    },
+
+    { "name": "jump_left_start_spin_jump",
+      "layout": [38,-1],
+      "dimensions": [-16,-21,16,27],
+      "palette range": [0,15],
+      "dma": [2,13],
+      "usage": [["0x1A",0],["0x1C",0],["0x82",0],["0x84",1]]
+    },
+
+    { "name": "spin_jump_left",
+      "layout": [38,-2],
+      "dimensions": [-16,-16,16,16],
+      "palette range": [0,15],
+      "dma": [2,14],
+      "force table": "lower",
+      "usage": [["0x1A",1],["0x84",3],["0x82",28],["0x82",29],["0x82",30],["0x84",49],["0x84",50],["0x84",51]]
+    },
+
+    { "name": "spin_jump_left1",
+      "parent": "spin_jump_left",
+      "layout": [38,-3],
+      "dma": [2,15],
+      "usage": [["0x1A",2],["0x84",4],["0x82",31],["0x82",32],["0x82",33],["0x84",52],["0x84",53],["0x84",54]]
+    },
+
+    { "name": "spin_jump_left2",
+      "parent": "spin_jump_left",
+      "layout": [38,-4],
+      "dma": [2,16],
+      "usage": [["0x1A",3],["0x84",5],["0x82",34],["0x82",35],["0x82",36],["0x84",55],["0x84",56],["0x84",57]]
+    },
+
+    { "name": "spin_jump_left3",
+      "parent": "spin_jump_left",
+      "layout": [38,-5],
+      "dma": [2,17],
+      "usage": [["0x1A",4],["0x84",6],["0x82",37],["0x82",38],["0x82",39],["0x84",58],["0x84",59],["0x84",60]]
+    },
+
+    { "name": "spin_jump_left4",
+      "parent": "spin_jump_left",
+      "layout": [38,-6],
+      "dma": [2,18],
+      "usage": [["0x1A",5],["0x84",7],["0x82",40],["0x82",41],["0x82",42],["0x84",61],["0x84",62],["0x84",63]]
+    },
+
+    { "name": "spin_jump_left5",
+      "parent": "spin_jump_left",
+      "layout": [38,-7],
+      "dma": [2,19],
+      "usage": [["0x1A",6],["0x84",8],["0x82",43],["0x82",44],["0x82",45],["0x84",64],["0x84",65],["0x84",66]]
+    },
+
+    { "name": "spin_jump_left6",
+      "parent": "spin_jump_left",
+      "layout": [38,-8],
+      "dma": [2,20],
+      "usage": [["0x1A",7],["0x84",9],["0x82",46],["0x82",47],["0x82",48],["0x84",67],["0x84",68],["0x84",69]]
+    },
+
+    { "name": "spin_jump_left7",
+      "parent": "spin_jump_left",
+      "layout": [38,-9],
+      "dma": [2,21],
+      "usage": [["0x1A",8],["0x84",10],["0x82",49],["0x82",50],["0x82",51],["0x84",70],["0x84",71],["0x84",72]]
+    },
+
+    { "name": "spin_jump_left_land",
+      "parent": "jump_left_start_spin_jump",
+      "layout": [38,-10],
+      "dma": [2,22],
+      "usage": [["0xA7",0]]
+    },
+
+    { "name": "spin_jump_left_land1",
+      "parent": "spin_jump_left_land",
+      "layout": [38,-11],
+      "dma": [2,23],
+      "usage": [["0xA7",1]]
+    },
+
+    { "name": "spin_jump_left_land2",
+      "parent": "spin_jump_left_land",
+      "layout": [38,-12],
+      "dma": [2,24],
+      "usage": [["0xA7",2]]
+    },
+
+    { "name": "grapple_wall_left",
+      "layout": [39,-1],
+      "dimensions": [-16,-20,24,20],
+      "palette range": [0,15],
+      "dma": [12,5],
+      "usage": [["0xB8",0]]
+    },
+
+    { "name": "wall_jump_left",
+      "layout": [39,-2],
+      "dimensions": [-20,-20,12,20],
+      "palette range": [0,15],
+      "dma": [12,6],
+      "usage": [["0x1A",11],["0x1C",11],["0x82",27],["0x82",54]]
+    },
+
+    { "name": "wall_jump_launch_left",
+      "layout": [39,-3],
+      "shift": [0,-4],
+      "dimensions": [-20,-16,12,24],
+      "palette range": [0,15],
+      "dma": [12,7],
+      "usage": [["0x84",0]]
+    },
+
+    { "name": "jump_right_start_spin_jump",
+      "layout": [38,1],
+      "dimensions": [-16,-21,16,27],
+      "palette range": [0,15],
+      "dma": [8,13],
+      "usage": [["0x19",0],["0x1B",0],["0x81",0],["0x83",1]]
+    },
+
+    { "name": "spin_jump_right",
+      "layout": [38,2],
+      "dimensions": [-16,-16,16,16],
+      "palette range": [0,15],
+      "dma": [8,14],
+      "force table": "lower",
+      "usage": [["0x19",1],["0x83",3],["0x81",28],["0x81",29],["0x81",30],["0x83",49],["0x83",50],["0x83",51]]
+    },
+
+    { "name": "spin_jump_right1",
+      "parent": "spin_jump_right",
+      "layout": [38,3],
+      "dma": [8,15],
+      "usage": [["0x19",2],["0x83",4],["0x81",31],["0x81",32],["0x81",33],["0x83",52],["0x83",53],["0x83",54]]
+    },
+
+    { "name": "spin_jump_right2",
+      "parent": "spin_jump_right",
+      "layout": [38,4],
+      "dma": [8,16],
+      "usage": [["0x19",3],["0x83",5],["0x81",34],["0x81",35],["0x81",36],["0x83",55],["0x83",56],["0x83",57]]
+    },
+
+    { "name": "spin_jump_right3",
+      "parent": "spin_jump_right",
+      "layout": [38,5],
+      "dma": [8,17],
+      "usage": [["0x19",4],["0x83",6],["0x81",37],["0x81",38],["0x81",39],["0x83",58],["0x83",59],["0x83",60]]
+    },
+
+    { "name": "spin_jump_right4",
+      "parent": "spin_jump_right",
+      "layout": [38,6],
+      "dma": [8,18],
+      "usage": [["0x19",5],["0x83",7],["0x81",40],["0x81",41],["0x81",42],["0x83",61],["0x83",62],["0x83",63]]
+    },
+
+    { "name": "spin_jump_right5",
+      "parent": "spin_jump_right",
+      "layout": [38,7],
+      "dma": [8,19],
+      "usage": [["0x19",6],["0x83",8],["0x81",43],["0x81",44],["0x81",45],["0x83",64],["0x83",65],["0x83",66]]
+    },
+
+    { "name": "spin_jump_right6",
+      "parent": "spin_jump_right",
+      "layout": [38,8],
+      "dma": [8,20],
+      "usage": [["0x19",7],["0x83",9],["0x81",46],["0x81",47],["0x81",48],["0x83",67],["0x83",68],["0x83",69]]
+    },
+
+    { "name": "spin_jump_right7",
+      "parent": "spin_jump_right",
+      "layout": [38,9],
+      "dma": [8,21],
+      "usage": [["0x19",8],["0x83",10],["0x81",49],["0x81",50],["0x81",51],["0x83",70],["0x83",71],["0x83",72]]
+    },
+
+    { "name": "spin_jump_right_land",
+      "parent": "jump_right_start_spin_jump",
+      "layout": [38,10],
+      "dma": [8,22],
+      "usage": [["0xA6",0]]
+    },
+
+    { "name": "spin_jump_right_land1",
+      "parent": "spin_jump_right_land",
+      "layout": [38,11],
+      "dma": [8,23],
+      "usage": [["0xA6",1]]
+    },
+
+    { "name": "spin_jump_right_land2",
+      "parent": "spin_jump_right_land",
+      "layout": [38,12],
+      "dma": [8,24],
+      "usage": [["0xA6",2]]
+    },
+
+    { "name": "grapple_wall_right",
+      "layout": [39,1],
+      "dimensions": [-25,-20,15,20],
+      "palette range": [0,15],
+      "dma": [12,33],
+      "usage": [["0xB9",0]]
+    },
+
+    { "name": "wall_jump_right",
+      "layout": [39,2],
+      "dimensions": [-11,-20,21,20],
+      "palette range": [0,15],
+      "dma": [12,34],
+      "usage": [["0x19",11],["0x1B",11],["0x81",27],["0x81",54]]
+    },
+
+    { "name": "wall_jump_launch_right",
+      "layout": [39,3],
+      "shift": [0,-4],
+      "dimensions": [-12,-16,20,24],
+      "palette range": [0,15],
+      "dma": [12,35],
+      "usage": [["0x83",0]]
+    },
+
+    { "name": "space_jump_left",
+      "layout": [41,-1],
+      "dimensions": [-16,-16,16,16],
+      "palette range": [0,15],
+      "dma": [2,25],
+      "force table": "lower",
+      "usage": [["0x1C",1],["0x82",1],["0x82",9],["0x82",17],["0x84",13],["0x84",23],["0x84",31],["0x84",39],["0x82",25]]
+    },
+
+    { "name": "space_jump_left1",
+      "parent": "space_jump_left",
+      "layout": [41,-2],
+      "dma": [2,26],
+      "usage": [["0x1C",2],["0x82",2],["0x82",10],["0x82",18],["0x84",14],["0x84",24],["0x84",32],["0x84",40]]
+    },
+
+    { "name": "space_jump_left2",
+      "parent": "space_jump_left",
+      "layout": [41,-3],
+      "dma": [2,27],
+      "usage": [["0x1C",3],["0x82",3],["0x82",11],["0x82",19],["0x84",15],["0x84",25],["0x84",33],["0x84",41]]
+    },
+
+    { "name": "space_jump_left3",
+      "parent": "space_jump_left",
+      "layout": [41,-4],
+      "dma": [2,28],
+      "usage": [["0x1C",4],["0x82",4],["0x82",12],["0x82",20],["0x84",16],["0x84",26],["0x84",34],["0x84",42]]
+    },
+
+    { "name": "space_jump_left4",
+      "parent": "space_jump_left",
+      "layout": [41,-5],
+      "dma": [2,29],
+      "usage": [["0x1C",5],["0x82",5],["0x82",13],["0x82",21],["0x84",17],["0x84",27],["0x84",35],["0x84",43]]
+    },
+
+    { "name": "space_jump_left5",
+      "parent": "space_jump_left",
+      "layout": [41,-6],
+      "dma": [2,30],
+      "usage": [["0x1C",6],["0x82",6],["0x82",14],["0x82",22],["0x84",18],["0x84",28],["0x84",36],["0x84",44]]
+    },
+
+    { "name": "space_jump_left6",
+      "parent": "space_jump_left",
+      "layout": [41,-7],
+      "dma": [2,31],
+      "usage": [["0x1C",7],["0x82",7],["0x82",15],["0x82",23],["0x84",19],["0x84",29],["0x84",37],["0x84",45]]
+    },
+
+    { "name": "space_jump_left7",
+      "parent": "space_jump_left",
+      "layout": [41,-8],
+      "dma": [2,32],
+      "usage": [["0x1C",8],["0x82",8],["0x82",16],["0x82",24],["0x84",20],["0x84",30],["0x84",38],["0x84",46]]
+    },
+
+    { "name": "space_jump_right",
+      "layout": [41,1],
+      "dimensions": [-16,-16,16,16],
+      "palette range": [0,15],
+      "dma": [8,25],
+      "force table": "lower",
+      "usage": [["0x1B",1],["0x81",1],["0x81",9],["0x81",17],["0x83",13],["0x83",23],["0x83",31],["0x83",39],["0x81",25]]
+    },
+
+    { "name": "space_jump_right1",
+      "parent": "space_jump_right",
+      "layout": [41,2],
+      "dma": [8,26],
+      "usage": [["0x1B",2],["0x81",2],["0x81",10],["0x81",18],["0x83",14],["0x83",24],["0x83",32],["0x83",40]]
+    },
+
+    { "name": "space_jump_right2",
+      "parent": "space_jump_right",
+      "layout": [41,3],
+      "dma": [8,27],
+      "usage": [["0x1B",3],["0x81",3],["0x81",11],["0x81",19],["0x83",15],["0x83",25],["0x83",33],["0x83",41]]
+    },
+
+    { "name": "space_jump_right3",
+      "parent": "space_jump_right",
+      "layout": [41,4],
+      "dma": [8,28],
+      "usage": [["0x1B",4],["0x81",4],["0x81",12],["0x81",20],["0x83",16],["0x83",26],["0x83",34],["0x83",42]]
+    },
+
+    { "name": "space_jump_right4",
+      "parent": "space_jump_right",
+      "layout": [41,5],
+      "dma": [8,29],
+      "usage": [["0x1B",5],["0x81",5],["0x81",13],["0x81",21],["0x83",17],["0x83",27],["0x83",35],["0x83",43]]
+    },
+
+    { "name": "space_jump_right5",
+      "parent": "space_jump_right",
+      "layout": [41,6],
+      "dma": [8,30],
+      "usage": [["0x1B",6],["0x81",6],["0x81",14],["0x81",22],["0x83",18],["0x83",28],["0x83",36],["0x83",44]]
+    },
+
+    { "name": "space_jump_right6",
+      "parent": "space_jump_right",
+      "layout": [41,7],
+      "dma": [8,31],
+      "usage": [["0x1B",7],["0x81",7],["0x81",15],["0x81",23],["0x83",19],["0x83",29],["0x83",37],["0x83",45]]
+    },
+
+    { "name": "space_jump_right7",
+      "parent": "space_jump_right",
+      "layout": [41,8],
+      "dma": [8,32],
+      "usage": [["0x1B",8],["0x81",8],["0x81",16],["0x81",24],["0x83",20],["0x83",30],["0x83",38],["0x83",46]]
+    },
+
+    { "name": "morphball_stand_left",
+      "layout": [42,-1],
+      "dimensions": [-16,-15,16,9],
+      "palette range": [0,15],
+      "dma": [1,21],
+      "usage": [["0x41",0],["0x7A",0],["0xD8",0]]
+    },
+
+    { "name": "morphball_stand_left1",
+      "parent": "morphball_stand_left",
+      "layout": [42,-2],
+      "dma": [1,22],
+      "usage": [["0x41",1],["0x7A",1]]
+    },
+
+    { "name": "morphball_stand_left2",
+      "parent": "morphball_stand_left",
+      "layout": [42,-3],
+      "dma": [1,23],
+      "usage": [["0x41",2],["0x7A",2]]
+    },
+
+    { "name": "morphball_stand_left3",
+      "parent": "morphball_stand_left",
+      "layout": [42,-4],
+      "dma": [1,24],
+      "usage": [["0x41",3],["0x7A",3]]
+    },
+
+    { "name": "morphball_stand_left4",
+      "parent": "morphball_stand_left",
+      "layout": [42,-5],
+      "dma": [1,25],
+      "usage": [["0x41",4],["0x7A",4]]
+    },
+
+    { "name": "morphball_stand_left5",
+      "parent": "morphball_stand_left",
+      "layout": [42,-6],
+      "dma": [1,26],
+      "usage": [["0x41",5],["0x7A",5]]
+    },
+
+    { "name": "morphball_stand_left6",
+      "parent": "morphball_stand_left",
+      "layout": [42,-7],
+      "dma": [1,27],
+      "usage": [["0x41",6],["0x7A",6]]
+    },
+
+    { "name": "morphball_stand_left7",
+      "parent": "morphball_stand_left",
+      "layout": [42,-8],
+      "dma": [1,28],
+      "usage": [["0x41",7],["0x7A",7]]
+    },
+
+    { "name": "morphball_stand_right",
+      "layout": [42,1],
+      "dimensions": [-16,-15,16,9],
+      "palette range": [0,15],
+      "dma": [7,21],
+      "usage": [["0x1D",0],["0x79",0],["0xD7",0],["0xE8",0]]
+    },
+
+    { "name": "morphball_stand_right1",
+      "parent": "morphball_stand_right",
+      "layout": [42,2],
+      "dma": [7,22],
+      "usage": [["0x1D",1],["0x79",1]]
+    },
+
+    { "name": "morphball_stand_right2",
+      "parent": "morphball_stand_right",
+      "layout": [42,3],
+      "dma": [7,23],
+      "usage": [["0x1D",2],["0x79",2]]
+    },
+
+    { "name": "morphball_stand_right3",
+      "parent": "morphball_stand_right",
+      "layout": [42,4],
+      "dma": [7,24],
+      "usage": [["0x1D",3],["0x79",3]]
+    },
+
+    { "name": "morphball_stand_right4",
+      "parent": "morphball_stand_right",
+      "layout": [42,5],
+      "dma": [7,25],
+      "usage": [["0x1D",4],["0x79",4]]
+    },
+
+    { "name": "morphball_stand_right5",
+      "parent": "morphball_stand_right",
+      "layout": [42,6],
+      "dma": [7,26],
+      "usage": [["0x1D",5],["0x79",5]]
+    },
+
+    { "name": "morphball_stand_right6",
+      "parent": "morphball_stand_right",
+      "layout": [42,7],
+      "dma": [7,27],
+      "usage": [["0x1D",6],["0x79",6]]
+    },
+
+    { "name": "morphball_stand_right7",
+      "parent": "morphball_stand_right",
+      "layout": [42,8],
+      "dma": [7,28],
+      "usage": [["0x1D",7],["0x79",7]]
+    },
+
+    { "name": "morphball_roll_left",
+      "parent": "morphball_stand_left",
+      "layout": [43,-1],
+      "dma": [1,29],
+      "usage": [["0x1F",0],["0x7C",0]]
+    },
+
+    { "name": "morphball_roll_left1",
+      "parent": "morphball_roll_left",
+      "layout": [43,-2],
+      "dma": [1,30],
+      "usage": [["0x1F",1],["0x7C",1]]
+    },
+
+    { "name": "morphball_roll_left2",
+      "parent": "morphball_roll_left",
+      "layout": [43,-3],
+      "dma": [1,31],
+      "usage": [["0x1F",2],["0x7C",2]]
+    },
+
+    { "name": "morphball_roll_left3",
+      "parent": "morphball_roll_left",
+      "layout": [43,-4],
+      "dma": [1,32],
+      "usage": [["0x1F",3],["0x7C",3]]
+    },
+
+    { "name": "morphball_roll_left4",
+      "parent": "morphball_roll_left",
+      "layout": [43,-5],
+      "dma": [1,33],
+      "usage": [["0x1F",4],["0x7C",4]]
+    },
+
+    { "name": "morphball_roll_left5",
+      "parent": "morphball_roll_left",
+      "layout": [43,-6],
+      "dma": [1,34],
+      "usage": [["0x1F",5],["0x7C",5]]
+    },
+
+    { "name": "morphball_roll_left6",
+      "parent": "morphball_roll_left",
+      "layout": [43,-7],
+      "dma": [1,35],
+      "usage": [["0x1F",6],["0x7C",6]]
+    },
+
+    { "name": "morphball_roll_left7",
+      "parent": "morphball_roll_left",
+      "layout": [43,-8],
+      "dma": [1,36],
+      "usage": [["0x1F",7],["0x7C",7]]
+    },
+
+    { "name": "morphball_roll_right",
+      "parent": "morphball_stand_right",
+      "layout": [43,1],
+      "dma": [7,29],
+      "usage": [["0x1E",0],["0x7B",0]]
+    },
+
+    { "name": "morphball_roll_right1",
+      "parent": "morphball_roll_right",
+      "layout": [43,2],
+      "dma": [7,30],
+      "usage": [["0x1E",1],["0x7B",1]]
+    },
+
+    { "name": "morphball_roll_right2",
+      "parent": "morphball_roll_right",
+      "layout": [43,3],
+      "dma": [7,31],
+      "usage": [["0x1E",2],["0x7B",2]]
+    },
+
+    { "name": "morphball_roll_right3",
+      "parent": "morphball_roll_right",
+      "layout": [43,4],
+      "dma": [7,32],
+      "usage": [["0x1E",3],["0x7B",3]]
+    },
+
+    { "name": "morphball_roll_right4",
+      "parent": "morphball_roll_right",
+      "layout": [43,5],
+      "dma": [7,33],
+      "usage": [["0x1E",4],["0x7B",4]]
+    },
+
+    { "name": "morphball_roll_right5",
+      "parent": "morphball_roll_right",
+      "layout": [43,6],
+      "dma": [7,34],
+      "usage": [["0x1E",5],["0x7B",5]]
+    },
+
+    { "name": "morphball_roll_right6",
+      "parent": "morphball_roll_right",
+      "layout": [43,7],
+      "dma": [7,35],
+      "usage": [["0x1E",6],["0x7B",6]]
+    },
+
+    { "name": "morphball_roll_right7",
+      "parent": "morphball_roll_right",
+      "layout": [43,8],
+      "dma": [7,36],
+      "usage": [["0x1E",7],["0x7B",7]]
+    },
+
+    { "name": "morphball_fall_left",
+      "parent": "morphball_stand_left",
+      "layout": [44,-1],
+      "dma": [1,37],
+      "usage": [["0x32",0],["0x7E",0],["0x80",0]]
+    },
+
+    { "name": "morphball_fall_left1",
+      "parent": "morphball_fall_left",
+      "layout": [44,-2],
+      "dma": [1,38],
+      "usage": [["0x32",1],["0x7E",1],["0x80",1]]
+    },
+
+    { "name": "morphball_fall_left2",
+      "parent": "morphball_fall_left",
+      "layout": [44,-3],
+      "dma": [1,39],
+      "usage": [["0x32",2],["0x7E",2],["0x80",2]]
+    },
+
+    { "name": "morphball_fall_left3",
+      "parent": "morphball_fall_left",
+      "layout": [44,-4],
+      "dma": [1,40],
+      "usage": [["0x32",3],["0x7E",3],["0x80",3]]
+    },
+
+    { "name": "morphball_fall_left4",
+      "parent": "morphball_fall_left",
+      "layout": [44,-5],
+      "dma": [1,41],
+      "usage": [["0x32",4],["0x7E",4],["0x80",4]]
+    },
+
+    { "name": "morphball_fall_left5",
+      "parent": "morphball_fall_left",
+      "layout": [44,-6],
+      "dma": [1,42],
+      "usage": [["0x32",5],["0x7E",5],["0x80",5]]
+    },
+
+    { "name": "morphball_fall_left6",
+      "parent": "morphball_fall_left",
+      "layout": [44,-7],
+      "dma": [1,43],
+      "usage": [["0x32",6],["0x7E",6],["0x80",6]]
+    },
+
+    { "name": "morphball_fall_left7",
+      "parent": "morphball_fall_left",
+      "layout": [44,-8],
+      "dma": [1,44],
+      "usage": [["0x32",7],["0x7E",7],["0x80",7]]
+    },
+
+    { "name": "morphball_fall_right",
+      "parent": "morphball_stand_right",
+      "layout": [44,1],
+      "dma": [7,37],
+      "usage": [["0x31",0],["0x7D",0],["0x7F",0]]
+    },
+
+    { "name": "morphball_fall_right1",
+      "parent": "morphball_fall_right",
+      "layout": [44,2],
+      "dma": [7,38],
+      "usage": [["0x31",1],["0x7D",1],["0x7F",1]]
+    },
+
+    { "name": "morphball_fall_right2",
+      "parent": "morphball_fall_right",
+      "layout": [44,3],
+      "dma": [7,39],
+      "usage": [["0x31",2],["0x7D",2],["0x7F",2]]
+    },
+
+    { "name": "morphball_fall_right3",
+      "parent": "morphball_fall_right",
+      "layout": [44,4],
+      "dma": [7,40],
+      "usage": [["0x31",3],["0x7D",3],["0x7F",3]]
+    },
+
+    { "name": "morphball_fall_right4",
+      "parent": "morphball_fall_right",
+      "layout": [44,5],
+      "dma": [7,41],
+      "usage": [["0x31",4],["0x7D",4],["0x7F",4]]
+    },
+
+    { "name": "morphball_fall_right5",
+      "parent": "morphball_fall_right",
+      "layout": [44,6],
+      "dma": [7,42],
+      "usage": [["0x31",5],["0x7D",5],["0x7F",5]]
+    },
+
+    { "name": "morphball_fall_right6",
+      "parent": "morphball_fall_right",
+      "layout": [44,7],
+      "dma": [7,43],
+      "usage": [["0x31",6],["0x7D",6],["0x7F",6]]
+    },
+
+    { "name": "morphball_fall_right7",
+      "parent": "morphball_fall_right",
+      "layout": [44,8],
+      "dma": [7,44],
+      "usage": [["0x31",7],["0x7D",7],["0x7F",7]]
+    },
+
+    { "name": "moonwalk_left",
+      "layout": [19,-1],
+      "dimensions": [-13,-27,19,29],
+      "palette range": [0,15],
+      "dma": [1,45],
+      "usage": [["0x4A",0]]
+    },
+
+    { "name": "moonwalk_left1",
+      "parent": "moonwalk_left",
+      "layout": [19,-2],
+      "dma": [1,46],
+      "usage": [["0x4A",1]]
+    },
+
+    { "name": "moonwalk_left2",
+      "parent": "moonwalk_left",
+      "layout": [19,-3],
+      "dma": [1,47],
+      "usage": [["0x4A",2]]
+    },
+
+    { "name": "moonwalk_left3",
+      "parent": "moonwalk_left",
+      "layout": [19,-4],
+      "dma": [1,48],
+      "usage": [["0x4A",3]]
+    },
+
+    { "name": "moonwalk_left4",
+      "parent": "moonwalk_left",
+      "layout": [19,-5],
+      "dma": [1,49],
+      "usage": [["0x4A",4]]
+    },
+
+    { "name": "moonwalk_left5",
+      "parent": "moonwalk_left",
+      "layout": [19,-6],
+      "dma": [2,0],
+      "usage": [["0x4A",5]]
+    },
+
+    { "name": "moonwalk_right",
+      "layout": [19,1],
+      "dimensions": [-19,-27,13,29],
+      "palette range": [0,15],
+      "dma": [7,45],
+      "usage": [["0x49",0]]
+    },
+
+    { "name": "moonwalk_right1",
+      "parent": "moonwalk_right",
+      "layout": [19,2],
+      "dma": [7,46],
+      "usage": [["0x49",1]]
+    },
+
+    { "name": "moonwalk_right2",
+      "parent": "moonwalk_right",
+      "layout": [19,3],
+      "dma": [7,47],
+      "usage": [["0x49",2]]
+    },
+
+    { "name": "moonwalk_right3",
+      "parent": "moonwalk_right",
+      "layout": [19,4],
+      "dma": [7,48],
+      "usage": [["0x49",3]]
+    },
+
+    { "name": "moonwalk_right4",
+      "parent": "moonwalk_right",
+      "layout": [19,5],
+      "dma": [7,49],
+      "usage": [["0x49",4]]
+    },
+
+    { "name": "moonwalk_right5",
+      "parent": "moonwalk_right",
+      "layout": [19,6],
+      "dma": [8,0],
+      "usage": [["0x49",5]]
+    },
+
+    { "name": "moonwalk_left_aim_diag_up",
+      "parent": "moonwalk_left",
+      "layout": [18,-1],
+      "dma": [2,1],
+      "usage": [["0x76",0]]
+    },
+
+    { "name": "moonwalk_left_aim_diag_up1",
+      "parent": "moonwalk_left_aim_diag_up",
+      "layout": [18,-2],
+      "dma": [2,2],
+      "usage": [["0x76",1]]
+    },
+
+    { "name": "moonwalk_left_aim_diag_up2",
+      "parent": "moonwalk_left_aim_diag_up",
+      "layout": [18,-3],
+      "dma": [2,3],
+      "usage": [["0x76",2]]
+    },
+
+    { "name": "moonwalk_left_aim_diag_up3",
+      "parent": "moonwalk_left_aim_diag_up",
+      "layout": [18,-4],
+      "dma": [2,4],
+      "usage": [["0x76",3]]
+    },
+
+    { "name": "moonwalk_left_aim_diag_up4",
+      "parent": "moonwalk_left_aim_diag_up",
+      "layout": [18,-5],
+      "dma": [2,5],
+      "usage": [["0x76",4]]
+    },
+
+    { "name": "moonwalk_left_aim_diag_up5",
+      "parent": "moonwalk_left_aim_diag_up",
+      "layout": [18,-6],
+      "dma": [2,6],
+      "usage": [["0x76",5]]
+    },
+
+    { "name": "moonwalk_right_aim_diag_up",
+      "parent": "moonwalk_right",
+      "layout": [18,1],
+      "dma": [8,1],
+      "usage": [["0x75",0]]
+    },
+
+    { "name": "moonwalk_right_aim_diag_up1",
+      "parent": "moonwalk_right_aim_diag_up",
+      "layout": [18,2],
+      "dma": [8,2],
+      "usage": [["0x75",1]]
+    },
+
+    { "name": "moonwalk_right_aim_diag_up2",
+      "parent": "moonwalk_right_aim_diag_up",
+      "layout": [18,3],
+      "dma": [8,3],
+      "usage": [["0x75",2]]
+    },
+
+    { "name": "moonwalk_right_aim_diag_up3",
+      "parent": "moonwalk_right_aim_diag_up",
+      "layout": [18,4],
+      "dma": [8,4],
+      "usage": [["0x75",3]]
+    },
+
+    { "name": "moonwalk_right_aim_diag_up4",
+      "parent": "moonwalk_right_aim_diag_up",
+      "layout": [18,5],
+      "dma": [8,5],
+      "usage": [["0x75",4]]
+    },
+
+    { "name": "moonwalk_right_aim_diag_up5",
+      "parent": "moonwalk_right_aim_diag_up",
+      "layout": [18,6],
+      "dma": [8,6],
+      "usage": [["0x75",5]]
+    },
+
+    { "name": "moonwalk_left_aim_diag_down",
+      "parent": "moonwalk_left",
+      "layout": [20,-1],
+      "dma": [2,7],
+      "usage": [["0x78",0]]
+    },
+
+    { "name": "moonwalk_left_aim_diag_down1",
+      "parent": "moonwalk_left_aim_diag_down",
+      "layout": [20,-2],
+      "dma": [2,8],
+      "usage": [["0x78",1]]
+    },
+
+    { "name": "moonwalk_left_aim_diag_down2",
+      "parent": "moonwalk_left_aim_diag_down",
+      "layout": [20,-3],
+      "dma": [2,9],
+      "usage": [["0x78",2]]
+    },
+
+    { "name": "moonwalk_left_aim_diag_down3",
+      "parent": "moonwalk_left_aim_diag_down",
+      "layout": [20,-4],
+      "dma": [2,10],
+      "usage": [["0x78",3]]
+    },
+
+    { "name": "moonwalk_left_aim_diag_down4",
+      "parent": "moonwalk_left_aim_diag_down",
+      "layout": [20,-5],
+      "dma": [2,11],
+      "usage": [["0x78",4]]
+    },
+
+    { "name": "moonwalk_left_aim_diag_down5",
+      "parent": "moonwalk_left_aim_diag_down",
+      "layout": [20,-6],
+      "dma": [2,12],
+      "usage": [["0x78",5]]
+    },
+
+    { "name": "moonwalk_right_aim_diag_down",
+      "parent": "moonwalk_right",
+      "layout": [20,1],
+      "dma": [8,7],
+      "usage": [["0x77",0]]
+    },
+
+    { "name": "moonwalk_right_aim_diag_down1",
+      "parent": "moonwalk_right_aim_diag_down",
+      "layout": [20,2],
+      "dma": [8,8],
+      "usage": [["0x77",1]]
+    },
+
+    { "name": "moonwalk_right_aim_diag_down2",
+      "parent": "moonwalk_right_aim_diag_down",
+      "layout": [20,3],
+      "dma": [8,9],
+      "usage": [["0x77",2]]
+    },
+
+    { "name": "moonwalk_right_aim_diag_down3",
+      "parent": "moonwalk_right_aim_diag_down",
+      "layout": [20,4],
+      "dma": [8,10],
+      "usage": [["0x77",3]]
+    },
+
+    { "name": "moonwalk_right_aim_diag_down4",
+      "parent": "moonwalk_right_aim_diag_down",
+      "layout": [20,5],
+      "dma": [8,11],
+      "usage": [["0x77",4]]
+    },
+
+    { "name": "moonwalk_right_aim_diag_down5",
+      "parent": "moonwalk_right_aim_diag_down",
+      "layout": [20,6],
+      "dma": [8,12],
+      "usage": [["0x77",5]]
+    },
+
+    { "name": "xray_left",
+      "parent": "stand_left",
+      "layout": [33,-1],
+      "dma": [3,19],
+      "usage": [["0xD6",0]]
+    },
+
+    { "name": "xray_left1",
+      "parent": "xray_left",
+      "layout": [33,-2],
+      "dma": [1,17],
+      "usage": [["0xD6",1]]
+    },
+
+    { "name": "xray_left2",
+      "parent": "xray_left",
+      "layout": [33,-3],
+      "dma": [1,18],
+      "usage": [["0xD6",2]]
+    },
+
+    { "name": "xray_left3",
+      "parent": "xray_left",
+      "layout": [33,-4],
+      "dma": [1,19],
+      "usage": [["0xD6",3]]
+    },
+
+    { "name": "xray_left4",
+      "parent": "xray_left",
+      "layout": [33,-5],
+      "dma": [1,20],
+      "usage": [["0xD6",4]]
+    },
+
+    { "name": "xray_right",
+      "parent": "stand_right",
+      "layout": [33,1],
+      "dma": [9,19],
+      "usage": [["0xD5",0]]
+    },
+
+    { "name": "xray_right1",
+      "parent": "xray_right",
+      "layout": [33,2],
+      "dma": [7,17],
+      "usage": [["0xD5",1]]
+    },
+
+    { "name": "xray_right2",
+      "parent": "xray_right",
+      "layout": [33,3],
+      "dma": [7,18],
+      "usage": [["0xD5",2]]
+    },
+
+    { "name": "xray_right3",
+      "parent": "xray_right",
+      "layout": [33,4],
+      "dma": [7,19],
+      "usage": [["0xD5",3]]
+    },
+
+    { "name": "xray_right4",
+      "parent": "xray_right",
+      "layout": [33,5],
+      "dma": [7,20],
+      "usage": [["0xD5",4]]
+    },
+
+    { "name": "xray_crouch_left",
+      "parent": "crouch_left",
+      "layout": [34,-1],
+      "dma": [1,16],
+      "usage": [["0xDA",0]]
+    },
+
+    { "name": "xray_crouch_left1",
+      "parent": "xray_crouch_left",
+      "layout": [34,-2],
+      "dma": [3,20],
+      "usage": [["0xDA",1]]
+    },
+
+    { "name": "xray_crouch_left2",
+      "parent": "xray_crouch_left",
+      "layout": [34,-3],
+      "dma": [3,21],
+      "usage": [["0xDA",2]]
+    },
+
+    { "name": "xray_crouch_left3",
+      "parent": "xray_crouch_left",
+      "layout": [34,-4],
+      "dma": [3,22],
+      "usage": [["0xDA",3]]
+    },
+
+    { "name": "xray_crouch_left4",
+      "parent": "xray_crouch_left",
+      "layout": [34,-5],
+      "dma": [3,23],
+      "usage": [["0xDA",4]]
+    },
+
+    { "name": "xray_crouch_right",
+      "parent": "crouch_right",
+      "layout": [34,1],
+      "dma": [7,16],
+      "usage": [["0xD9",0]]
+    },
+
+    { "name": "xray_crouch_right1",
+      "parent": "xray_crouch_right",
+      "layout": [34,2],
+      "dma": [9,20],
+      "usage": [["0xD9",1]]
+    },
+
+    { "name": "xray_crouch_right2",
+      "parent": "xray_crouch_right",
+      "layout": [34,3],
+      "dma": [9,21],
+      "usage": [["0xD9",2]]
+    },
+
+    { "name": "xray_crouch_right3",
+      "parent": "xray_crouch_right",
+      "layout": [34,4],
+      "dma": [9,22],
+      "usage": [["0xD9",3]]
+    },
+
+    { "name": "xray_crouch_right4",
+      "parent": "xray_crouch_right",
+      "layout": [34,5],
+      "dma": [9,23],
+      "usage": [["0xD9",4]]
+    },
+
+    { "name": "stand_turn_left",
+      "parent": "stand_turn_neutral",
+      "layout": [9,-1],
+      "dma": [3,24],
+      "usage": [["0x25",2],["0x26",0],["0xBF",2],["0xC0",0]]
+    },
+
+    { "name": "stand_turn_neutral",
+      "layout": [9,0],
+      "dimensions": [-16,-21,16,27],
+      "palette range": [0,15],
+      "dma": [12,27],
+      "usage": [["0x25",1],["0x26",1],["0xBF",1],["0xC0",1]]
+    },
+
+    { "name": "stand_turn_right",
+      "parent": "stand_turn_neutral",
+      "layout": [9,1],
+      "dma": [9,24],
+      "usage": [["0x25",0],["0x26",2],["0xBF",0],["0xC0",2]]
+    },
+
+    { "name": "crouch_turn_left",
+      "parent": "crouch_turn_neutral",
+      "layout": [12,-1],
+      "dma": [3,27],
+      "usage": [["0x43",2],["0x44",0]]
+    },
+
+    { "name": "crouch_turn_neutral",
+      "layout": [12,0],
+      "dimensions": [-16,-24,16,16],
+      "palette range": [0,15],
+      "dma": [13,10],
+      "usage": [["0x43",1],["0x44",1]]
+    },
+
+    { "name": "crouch_turn_right",
+      "parent": "crouch_turn_neutral",
+      "layout": [12,1],
+      "dma": [9,27],
+      "usage": [["0x43",0],["0x44",2]]
+    },
+
+    { "name": "jump_left_begin",
+      "layout": [21,-1],
+      "spacing": 51,
+      "dimensions": [-19,-27,13,29],
+      "palette range": [0,15],
+      "dma": [2,33],
+      "usage": [["0x4C",0]]
+    },
+
+    { "name": "jump_left",
+      "layout": [21,-2],
+      "spacing": 8,
+      "dimensions": [-19,-27,13,29],
+      "palette range": [0,15],
+      "dma": [2,34],
+      "usage": [["0x4E",0],["0xC8",0]]
+    },
+
+    { "name": "jump_left1",
+      "parent": "jump_left",
+      "layout": [21,-3],
+      "spacing": 8,
+      "dma": [2,35],
+      "usage": [["0x4E",1],["0xC8",1]]
+    },
+
+    { "name": "jump_left2",
+      "parent": "jump_left",
+      "layout": [21,-4],
+      "spacing": 8,
+      "dma": [2,36],
+      "usage": [["0x4E",2],["0xC8",2]]
+    },
+
+    { "name": "jump_left3",
+      "parent": "jump_left",
+      "layout": [21,-5],
+      "spacing": 8,
+      "dma": [2,37],
+      "usage": [["0x4E",3],["0xC8",3]]
+    },
+
+    { "name": "jump_left4",
+      "parent": "jump_left",
+      "layout": [21,-6],
+      "spacing": 8,
+      "dma": [2,38],
+      "usage": [["0x4E",4],["0xC8",4]]
+    },
+
+    { "name": "jump_left5",
+      "parent": "jump_left",
+      "layout": [21,-7],
+      "spacing": 8,
+      "dma": [2,39],
+      "usage": [["0x4E",5],["0xC8",5]]
+    },
+
+    { "name": "jump_left_land",
+      "parent": "jump_left",
+      "layout": [21,-8],
+      "spacing": 8,
+      "dimensions": [-19,-27,13,29],
+      "dma": [2,40],
+      "usage": [["0xA5",0]]
+    },
+
+    { "name": "jump_left_land1",
+      "parent": "jump_left_land",
+      "layout": [21,-9],
+      "spacing": 8,
+      "dimensions": [-19,-27,13,29],
+      "dma": [2,41],
+      "usage": [["0xA5",1]]
+    },
+
+    { "name": "jump_right_begin",
+      "layout": [21,1],
+      "spacing": -51,
+      "dimensions": [-13,-27,19,29],
+      "palette range": [0,15],
+      "dma": [8,33],
+      "usage": [["0x4B",0]]
+    },
+
+    { "name": "jump_right",
+      "layout": [21,2],
+      "spacing": -8,
+      "dimensions": [-13,-27,19,29],
+      "palette range": [0,15],
+      "dma": [8,34],
+      "usage": [["0x4D",0],["0xC7",0]]
+    },
+
+    { "name": "jump_right1",
+      "parent": "jump_right",
+      "layout": [21,3],
+      "spacing": -8,
+      "dma": [8,35],
+      "usage": [["0x4D",1],["0xC7",1]]
+    },
+
+    { "name": "jump_right2",
+      "parent": "jump_right",
+      "layout": [21,4],
+      "spacing": -8,
+      "dma": [8,36],
+      "usage": [["0x4D",2],["0xC7",2]]
+    },
+
+    { "name": "jump_right3",
+      "parent": "jump_right",
+      "layout": [21,5],
+      "spacing": -8,
+      "dma": [8,37],
+      "usage": [["0x4D",3],["0xC7",3]]
+    },
+
+    { "name": "jump_right4",
+      "parent": "jump_right",
+      "layout": [21,6],
+      "spacing": -8,
+      "dma": [8,38],
+      "usage": [["0x4D",4],["0xC7",4]]
+    },
+
+    { "name": "jump_right5",
+      "parent": "jump_right",
+      "layout": [21,7],
+      "spacing": -8,
+      "dma": [8,39],
+      "usage": [["0x4D",5],["0xC7",5]]
+    },
+
+    { "name": "jump_right_land",
+      "parent": "jump_right",
+      "dimensions": [-13,-27,19,29],
+      "layout": [21,8],
+      "spacing": -8,
+      "dma": [8,40],
+      "usage": [["0xA4",0]]
+    },
+
+    { "name": "jump_right_land1",
+      "parent": "jump_right_land",
+      "layout": [21,9],
+      "spacing": -8,
+      "dimensions": [-13,-27,19,29],
+      "dma": [8,41],
+      "usage": [["0xA4",1]]
+    },
+
+    { "name": "jump_left_aim_up_begin",
+      "layout": [22,-1],
+      "spacing": 51,
+      "dimensions": [-19,-27,13,29],
+      "palette range": [0,15],
+      "dma": [2,42],
+      "usage": [["0x56",0]]
+    },
+
+    { "name": "jump_left_aim_up",
+      "layout": [22,-2],
+      "spacing": 176,
+      "dimensions": [-19,-27,13,29],
+      "dimensions+": [[-27,-27,-19,5]],
+      "palette range": [0,15],
+      "dma": [3,1],
+      "usage": [["0x16",0]]
+    },
+
+    { "name": "jump_left_aim_up1",
+      "parent": "jump_left_aim_up_begin",
+      "layout": [22,-3],
+      "dma": [3,2],
+      "usage": [["0x16",1]]
+    },
+
+    { "name": "jump_left_aim_up_land",
+      "parent": "jump_left_aim_up_begin",
+      "layout": [22,-4],
+      "spacing": 8,
+      "dma": [2,43],
+      "usage": [["0xE1",0]]
+    },
+
+    { "name": "jump_left_aim_up_land1",
+      "parent": "jump_left_aim_up_land",
+      "layout": [22,-5],
+      "spacing": 8,
+      "dma": [3,0],
+      "usage": [["0xE1",1]]
+    },
+
+    { "name": "jump_right_aim_up_begin",
+      "layout": [22,1],
+      "spacing": -51,
+      "dimensions": [-13,-27,19,29],
+      "palette range": [0,15],
+      "dma": [8,42],
+      "usage": [["0x55",0]]
+    },
+
+    { "name": "jump_right_aim_up",
+      "layout": [22,2],
+      "spacing": -176,
+      "dimensions": [-13,-27,19,29],
+      "dimensions+": [[19,-27,27,5]],
+      "palette range": [0,15],
+      "dma": [9,1],
+      "usage": [["0x15",0]]
+    },
+
+    { "name": "jump_right_aim_up1",
+      "parent": "jump_right_aim_up_begin",
+      "dimensions": [-13,-27,19,29],
+      "layout": [22,3],
+      "dma": [9,2],
+      "usage": [["0x15",1]]
+    },
+
+    { "name": "jump_right_aim_up_land",
+      "parent": "jump_right_aim_up_begin",
+      "layout": [22,4],
+      "spacing": -8,
+      "dma": [8,43],
+      "usage": [["0xE0",0]]
+    },
+
+    { "name": "jump_right_aim_up_land1",
+      "parent": "jump_right_aim_up_land",
+      "layout": [22,5],
+      "spacing": -8,
+      "dma": [9,0],
+      "usage": [["0xE0",1]]
+    },
+
+    { "name": "jump_left_aim_diag_up_begin",
+      "parent": "jump_left_aim_diag_up",
+      "layout": [23,-2],
+      "dma": [3,3],
+      "usage": [["0x58",0]]
+    },
+
+    { "name": "jump_left_aim_diag_up",
+      "layout": [23,-3],
+      "spacing": 168,
+      "dimensions": [-19,-27,13,29],
+      "dimensions+": [[-27,-27,-19,5]],
+      "palette range": [0,15],
+      "dma": [3,4],
+      "usage": [["0x6A",0]]
+    },
+
+    { "name": "jump_left_aim_diag_up1",
+      "parent": "jump_left_aim_diag_up",
+      "layout": [23,-4],
+      "dma": [3,5],
+      "usage": [["0x6A",1]]
+    },
+
+    { "name": "jump_left_aim_diag_up_land",
+      "parent": "jump_left_aim_diag_up",
+      "layout": [23,-5],
+      "dma": [3,6],
+      "usage": [["0xE3",0]]
+    },
+
+    { "name": "jump_left_aim_diag_up_land1",
+      "parent": "jump_left_aim_diag_up_land",
+      "layout": [23,-6],
+      "dma": [3,7],
+      "usage": [["0xE3",1]]
+    },
+
+    { "name": "jump_right_aim_diag_up_begin",
+      "parent": "jump_right_aim_diag_up",
+      "layout": [23,2],
+      "dma": [9,3],
+      "usage": [["0x57",0]]
+    },
+
+    { "name": "jump_right_aim_diag_up",
+      "layout": [23,3],
+      "spacing": -168,
+      "dimensions": [-13,-27,19,29],
+      "dimensions+": [[19,-27,27,5]],
+      "palette range": [0,15],
+      "dma": [9,4],
+      "usage": [["0x69",0]]
+    },
+
+    { "name": "jump_right_aim_diag_up1",
+      "parent": "jump_right_aim_diag_up",
+      "layout": [23,4],
+      "dma": [9,5],
+      "usage": [["0x69",1]]
+    },
+
+    { "name": "jump_right_aim_diag_up_land",
+      "parent": "jump_right_aim_diag_up",
+      "layout": [23,5],
+      "dma": [9,6],
+      "usage": [["0xE2",0]]
+    },
+
+    { "name": "jump_right_aim_diag_up_land1",
+      "parent": "jump_right_aim_diag_up_land",
+      "layout": [23,6],
+      "dma": [9,7],
+      "usage": [["0xE2",1]]
+    },
+
+    { "name": "jump_left_shoot",
+      "parent": "jump_left",
+      "layout": [24,-2],
+      "spacing": 210,
+      "dma": [3,8],
+      "usage": [["0x14",0],["0x52",0]]
+    },
+
+    { "name": "jump_left_shoot1",
+      "parent": "jump_left_shoot",
+      "layout": [24,-3],
+      "spacing": 8,
+      "dma": [3,9],
+      "usage": [["0x14",1],["0x52",1]]
+    },
+
+    { "name": "jump_left_shoot_land",
+      "parent": "jump_left_shoot",
+      "layout": [24,-4],
+      "spacing": 8,
+      "dma": [3,10],
+      "usage": [["0xE7",0],["0xD4",14],["0xD8",3]]
+    },
+
+    { "name": "jump_left_shoot_land1",
+      "parent": "jump_left_shoot_land",
+      "layout": [24,-5],
+      "spacing": 8,
+      "dma": [3,11],
+      "usage": [["0xE7",1]]
+    },
+
+    { "name": "jump_right_shoot",
+      "parent": "jump_right",
+      "layout": [24,2],
+      "spacing": -210,
+      "dma": [9,8],
+      "usage": [["0x13",0],["0x51",0]]
+    },
+
+    { "name": "jump_right_shoot1",
+      "parent": "jump_right_shoot",
+      "layout": [24,3],
+      "spacing": -8,
+      "dma": [9,9],
+      "usage": [["0x13",1],["0x51",1]]
+    },
+
+    { "name": "jump_right_shoot_land",
+      "parent": "jump_right_shoot",
+      "layout": [24,4],
+      "spacing": -8,
+      "dma": [9,10],
+      "usage": [["0xE6",0],["0xD3",14],["0xD7",3]]
+    },
+
+    { "name": "jump_right_shoot_land1",
+      "parent": "jump_right_shoot_land",
+      "layout": [24,5],
+      "spacing": -8,
+      "dma": [9,11],
+      "usage": [["0xE6",1]]
+    },
+
+    { "name": "jump_left_aim_diag_down_begin",
+      "parent": "jump_left_aim_diag_down",
+      "layout": [25,-2],
+      "dma": [3,12],
+      "usage": [["0x5A",0]]
+    },
+
+    { "name": "jump_left_aim_diag_down",
+      "layout": [25,-3],
+      "spacing": 168,
+      "dimensions": [-19,-27,13,29],
+      "dimensions+": [[-27,-11,-19,21]],
+      "palette range": [0,15],
+      "dma": [3,13],
+      "usage": [["0x6C",0]]
+    },
+
+    { "name": "jump_left_aim_diag_down1",
+      "parent": "jump_left_aim_diag_down",
+      "layout": [25,-4],
+      "dma": [3,14],
+      "usage": [["0x6C",1]]
+    },
+
+    { "name": "jump_left_aim_diag_down_land",
+      "parent": "jump_left_aim_diag_down",
+      "layout": [25,-5],
+      "dma": [3,15],
+      "usage": [["0xE5",0]]
+    },
+
+    { "name": "jump_left_aim_diag_down_land1",
+      "parent": "jump_left_aim_diag_down_land",
+      "layout": [25,-6],
+      "dma": [3,16],
+      "usage": [["0xE5",1]]
+    },
+
+    { "name": "jump_right_aim_diag_down_begin",
+      "parent": "jump_right_aim_diag_down",
+      "layout": [25,2],
+      "dma": [9,12],
+      "usage": [["0x59",0]]
+    },
+
+    { "name": "jump_right_aim_diag_down",
+      "layout": [25,3],
+      "spacing": -168,
+      "dimensions": [-13,-27,19,29],
+      "dimensions+": [[19,-11,27,21]],
+      "palette range": [0,15],
+      "dma": [9,13],
+      "usage": [["0x6B",0]]
+    },
+
+    { "name": "jump_right_aim_diag_down1",
+      "parent": "jump_right_aim_diag_down",
+      "layout": [25,4],
+      "dma": [9,14],
+      "usage": [["0x6B",1]]
+    },
+
+    { "name": "jump_right_aim_diag_down_land",
+      "parent": "jump_right_aim_diag_down",
+      "layout": [25,5],
+      "dma": [9,15],
+      "usage": [["0xE4",0]]
+    },
+
+    { "name": "jump_right_aim_diag_down_land1",
+      "parent": "jump_right_aim_diag_down_land",
+      "layout": [25,6],
+      "dma": [9,16],
+      "usage": [["0xE4",1]]
+    },
+
+    { "name": "jump_left_aim_down",
+      "parent": "jump_left",
+      "layout": [26,-1],
+      "spacing": 261,
+      "dma": [3,17],
+      "usage": [["0x18",0]]
+    },
+
+    { "name": "jump_left_aim_down1",
+      "parent": "jump_left_aim_down",
+      "layout": [26,-2],
+      "spacing": 8,
+      "dma": [3,18],
+      "usage": [["0x18",1]]
+    },
+
+    { "name": "jump_right_aim_down",
+      "parent": "jump_right",
+      "layout": [26,1],
+      "spacing": -261,
+      "dma": [9,17],
+      "usage": [["0x17",0]]
+    },
+
+    { "name": "jump_right_aim_down1",
+      "parent": "jump_right_aim_down",
+      "layout": [26,2],
+      "spacing": -8,
+      "dma": [9,18],
+      "usage": [["0x17",1]]
+    },
+
+    { "name": "jump_turn_left",
+      "parent": "jump_turn_neutral",
+      "layout": [24,-1],
+      "dma": [3,28],
+      "usage": [["0x2F",2],["0x30",0]]
+    },
+
+    { "name": "jump_turn_neutral",
+      "layout": [24,0],
+      "dimensions": [-16,-27,16,29],
+      "palette range": [0,15],
+      "dma": [13,4],
+      "usage": [["0x2F",1],["0x30",1]]
+    },
+
+    { "name": "jump_turn_right",
+      "parent": "jump_turn_neutral",
+      "layout": [24,1],
+      "dma": [9,28],
+      "usage": [["0x2F",0],["0x30",2]]
+    },
+
+    { "name": "jump_turn_left_aim_up",
+      "parent": "jump_turn_neutral_aim_up",
+      "layout": [23,-1],
+      "dma": [3,29],
+      "usage": [["0x8F",2],["0x90",0],["0x9E",2],["0x9F",0]]
+    },
+
+    { "name": "jump_turn_neutral_aim_up",
+      "parent": "jump_turn_neutral",
+      "layout": [23,0],
+      "dma": [13,5],
+      "usage": [["0x8F",1],["0x90",1],["0x9E",1],["0x9F",1]]
+    },
+
+    { "name": "jump_turn_right_aim_up",
+      "parent": "jump_turn_neutral_aim_up",
+      "layout": [23,1],
+      "dma": [9,29],
+      "usage": [["0x8F",0],["0x90",2],["0x9E",0],["0x9F",2]]
+    },
+
+    { "name": "jump_turn_left_aim_down",
+      "parent": "jump_turn_neutral_aim_down",
+      "layout": [25,-1],
+      "dma": [3,30],
+      "usage": [["0x91",2],["0x92",0]]
+    },
+
+    { "name": "jump_turn_neutral_aim_down",
+      "parent": "jump_turn_neutral",
+      "layout": [25,0],
+      "dma": [13,6],
+      "usage": [["0x91",1],["0x92",1]]
+    },
+
+    { "name": "jump_turn_right_aim_down",
+      "parent": "jump_turn_neutral_aim_down",
+      "layout": [25,1],
+      "dma": [9,30],
+      "usage": [["0x91",0],["0x92",2]]
+    },
+
+    { "name": "fall_left",
+      "layout": [27,-1],
+      "spacing": 51,
+      "dimensions": [-19,-27,13,29],
+      "palette range": [0,15],
+      "dma": [3,31],
+      "usage": [["0x2A",0]]
+    },
+
+    { "name": "fall_left1",
+      "parent": "fall_left",
+      "layout": [27,-2],
+      "spacing": 8,
+      "dma": [3,32],
+      "usage": [["0x2A",1]]
+    },
+
+    { "name": "fall_left2",
+      "parent": "fall_left",
+      "layout": [27,-3],
+      "dma": [3,33],
+      "usage": [["0x2A",2]]
+    },
+
+    { "name": "fall_left3",
+      "parent": "fall_left",
+      "layout": [27,-4],
+      "dma": [3,34],
+      "usage": [["0x2A",5]]
+    },
+
+    { "name": "fall_left4",
+      "parent": "fall_left",
+      "layout": [27,-5],
+      "dma": [3,35],
+      "usage": [["0x2A",6]]
+    },
+
+    { "name": "fall_right",
+      "layout": [27,1],
+      "spacing": -51,
+      "dimensions": [-13,-27,19,29],
+      "palette range": [0,15],
+      "dma": [9,31],
+      "usage": [["0x29",0]]
+    },
+
+    { "name": "fall_right1",
+      "parent": "fall_right",
+      "layout": [27,2],
+      "spacing": -8,
+      "dma": [9,32],
+      "usage": [["0x29",1]]
+    },
+
+    { "name": "fall_right2",
+      "parent": "fall_right",
+      "layout": [27,3],
+      "dma": [9,33],
+      "usage": [["0x29",2]]
+    },
+
+    { "name": "fall_right3",
+      "parent": "fall_right",
+      "layout": [27,4],
+      "dma": [9,34],
+      "usage": [["0x29",5]]
+    },
+
+    { "name": "fall_right4",
+      "parent": "fall_right",
+      "layout": [27,5],
+      "dma": [9,35],
+      "usage": [["0x29",6]]
+    },
+
+    { "name": "fall_left_aim_up",
+      "layout": [28,-1],
+      "spacing": 51,
+      "dimensions": [-19,-27,13,29],
+      "dimensions+": [[-27,-27,-19,5]],
+      "palette range": [0,15],
+      "dma": [4,2],
+      "usage": [["0x2C",0]]
+    },
+
+    { "name": "fall_left_aim_up1",
+      "layout": [28,-2],
+      "dimensions": [-19,-27,13,29],
+      "palette range": [0,15],
+      "dma": [4,3],
+      "usage": [["0x2C",1]]
+    },
+
+    { "name": "fall_left_aim_up2",
+      "parent": "fall_left_aim_up1",
+      "layout": [28,-3],
+      "spacing": 68,
+      "dma": [4,4],
+      "usage": [["0x2C",2]]
+    },
+
+    { "name": "fall_right_aim_up",
+      "layout": [28,1],
+      "spacing": -51,
+      "dimensions": [-13,-27,19,29],
+      "dimensions+": [[19,-27,27,5]],
+      "palette range": [0,15],
+      "dma": [10,2],
+      "usage": [["0x2B",0]]
+    },
+
+    { "name": "fall_right_aim_up1",
+      "layout": [28,2],
+      "dimensions": [-13,-27,19,29],
+      "palette range": [0,15],
+      "dma": [10,3],
+      "usage": [["0x2B",1]]
+    },
+
+    { "name": "fall_right_aim_up2",
+      "parent": "fall_right_aim_up1",
+      "layout": [28,3],
+      "spacing": -68,
+      "dma": [10,4],
+      "usage": [["0x2B",2]]
+    },
+
+    { "name": "fall_left_aim_diag_up",
+      "parent": "fall_left",
+      "layout": [29,-2],
+      "dma": [3,36],
+      "usage": [["0x6E",0]]
+    },
+
+    { "name": "fall_left_aim_diag_up1",
+      "parent": "fall_left_aim_diag_up",
+      "layout": [29,-3],
+      "spacing": 8,
+      "dma": [4,0],
+      "usage": [["0x6E",1]]
+    },
+
+    { "name": "fall_left_aim_diag_up2",
+      "parent": "fall_left_aim_diag_up",
+      "layout": [29,-4],
+      "spacing": 68,
+      "dma": [4,1],
+      "usage": [["0x6E",2]]
+    },
+
+    { "name": "fall_right_aim_diag_up",
+      "parent": "fall_right",
+      "layout": [29,2],
+      "dma": [9,36],
+      "usage": [["0x6D",0]]
+    },
+
+    { "name": "fall_right_aim_diag_up1",
+      "parent": "fall_right_aim_diag_up",
+      "layout": [29,3],
+      "spacing": -8,
+      "dma": [10,0],
+      "usage": [["0x6D",1]]
+    },
+
+    { "name": "fall_right_aim_diag_up2",
+      "parent": "fall_right_aim_diag_up",
+      "layout": [29,4],
+      "spacing": -68,
+      "dma": [10,1],
+      "usage": [["0x6D",2]]
+    },
+
+    { "name": "fall_left_shoot",
+      "parent": "fall_left",
+      "layout": [30,-2],
+      "dma": [4,5],
+      "usage": [["0x68",0]]
+    },
+
+    { "name": "fall_left_shoot1",
+      "parent": "fall_left_shoot",
+      "layout": [30,-3],
+      "spacing": 8,
+      "dma": [4,6],
+      "usage": [["0x68",1]]
+    },
+
+    { "name": "fall_left_shoot2",
+      "parent": "fall_left_shoot",
+      "layout": [30,-4],
+      "dma": [4,7],
+      "usage": [["0x68",2]]
+    },
+
+    { "name": "fall_left_shoot3",
+      "parent": "fall_left_shoot",
+      "layout": [30,-5],
+      "dma": [4,8],
+      "usage": [["0x68",5]]
+    },
+
+    { "name": "fall_left_shoot4",
+      "parent": "fall_left_shoot",
+      "layout": [30,-6],
+      "dma": [4,9],
+      "usage": [["0x68",6]]
+    },
+
+    { "name": "fall_right_shoot",
+      "parent": "fall_right",
+      "layout": [30,2],
+      "dma": [10,5],
+      "usage": [["0x67",0]]
+    },
+
+    { "name": "fall_right_shoot1",
+      "parent": "fall_right_shoot",
+      "layout": [30,3],
+      "spacing": -8,
+      "dma": [10,6],
+      "usage": [["0x67",1]]
+    },
+
+    { "name": "fall_right_shoot2",
+      "parent": "fall_right_shoot",
+      "layout": [30,4],
+      "dma": [10,7],
+      "usage": [["0x67",2]]
+    },
+
+    { "name": "fall_right_shoot3",
+      "parent": "fall_right_shoot",
+      "layout": [30,5],
+      "dma": [10,8],
+      "usage": [["0x67",5]]
+    },
+
+    { "name": "fall_right_shoot4",
+      "parent": "fall_right_shoot",
+      "layout": [30,6],
+      "dma": [10,9],
+      "usage": [["0x67",6]]
+    },
+
+    { "name": "fall_left_aim_diag_down",
+      "parent": "fall_left",
+      "layout": [31,-2],
+      "dma": [4,10],
+      "usage": [["0x70",0]]
+    },
+
+    { "name": "fall_left_aim_diag_down1",
+      "parent": "fall_left_aim_diag_down",
+      "layout": [31,-3],
+      "spacing": 8,
+      "dma": [4,11],
+      "usage": [["0x70",1]]
+    },
+
+    { "name": "fall_left_aim_diag_down2",
+      "parent": "fall_left_aim_diag_down",
+      "layout": [31,-4],
+      "spacing": 68,
+      "dma": [4,12],
+      "usage": [["0x70",2]]
+    },
+
+    { "name": "fall_right_aim_diag_down",
+      "parent": "fall_right",
+      "layout": [31,2],
+      "dma": [10,10],
+      "usage": [["0x6F",0]]
+    },
+
+    { "name": "fall_right_aim_diag_down1",
+      "parent": "fall_right_aim_diag_down",
+      "layout": [31,3],
+      "spacing": -8,
+      "dma": [10,11],
+      "usage": [["0x6F",1]]
+    },
+
+    { "name": "fall_right_aim_diag_down2",
+      "parent": "fall_right_aim_diag_down",
+      "layout": [31,4],
+      "spacing": -68,
+      "dma": [10,12],
+      "usage": [["0x6F",2]]
+    },
+
+    { "name": "fall_left_aim_down",
+      "parent": "fall_left",
+      "layout": [32,-1],
+      "spacing": 51,
+      "dma": [4,13],
+      "usage": [["0x2E",0]]
+    },
+
+    { "name": "fall_left_aim_down1",
+      "parent": "fall_left_aim_down",
+      "layout": [32,-2],
+      "spacing": 8,
+      "dma": [4,14],
+      "usage": [["0x2E",1]]
+    },
+
+    { "name": "fall_right_aim_down",
+      "parent": "fall_right",
+      "layout": [32,1],
+      "spacing": -51,
+      "dma": [10,13],
+      "usage": [["0x2D",0]]
+    },
+
+    { "name": "fall_right_aim_down1",
+      "parent": "fall_right_aim_down",
+      "layout": [32,2],
+      "spacing": -8,
+      "dma": [10,14],
+      "usage": [["0x2D",1]]
+    },
+
+    { "name": "roll_out_left",
+      "layout": [37,-1],
+      "dimensions": [-19,-24,21,24],
+      "palette range": [0,15],
+      "dma": [4,15],
+      "usage": [["0x50",0]]
+    },
+
+    { "name": "roll_out_left1",
+      "layout": [37,-2],
+      "dimensions": [-20,-24,20,24],
+      "palette range": [0,15],
+      "dma": [4,16],
+      "usage": [["0x50",1]]
+    },
+
+    { "name": "roll_out_left2",
+      "parent": "roll_out_left1",
+      "layout": [37,-3],
+      "dma": [4,17],
+      "usage": [["0x50",2]]
+    },
+
+    { "name": "roll_out_left3",
+      "parent": "roll_out_left1",
+      "layout": [37,-4],
+      "dma": [4,18],
+      "usage": [["0x50",3]]
+    },
+
+    { "name": "roll_out_left4",
+      "parent": "roll_out_left1",
+      "layout": [37,-5],
+      "dma": [4,19],
+      "usage": [["0x50",4]]
+    },
+
+    { "name": "roll_out_left5",
+      "parent": "roll_out_left1",
+      "layout": [37,-6],
+      "dma": [4,20],
+      "usage": [["0x50",5]]
+    },
+
+    { "name": "roll_out_left6",
+      "parent": "roll_out_left1",
+      "layout": [37,-7],
+      "dma": [4,21],
+      "usage": [["0x50",6]]
+    },
+
+    { "name": "roll_out_left7",
+      "parent": "roll_out_left1",
+      "layout": [37,-8],
+      "dma": [4,22],
+      "usage": [["0x50",7]]
+    },
+
+    { "name": "roll_out_left8",
+      "parent": "roll_out_left1",
+      "layout": [37,-9],
+      "dma": [4,23],
+      "usage": [["0x50",8]]
+    },
+
+    { "name": "roll_out_left9",
+      "parent": "roll_out_left1",
+      "layout": [37,-10],
+      "dma": [4,24],
+      "usage": [["0x50",9]]
+    },
+
+    { "name": "roll_out_right",
+      "layout": [37,1],
+      "dimensions": [-21,-24,19,24],
+      "palette range": [0,15],
+      "dma": [10,15],
+      "usage": [["0x4F",0]]
+    },
+
+    { "name": "roll_out_right1",
+      "layout": [37,2],
+      "dimensions": [-20,-24,20,24],
+      "palette range": [0,15],
+      "dma": [10,16],
+      "usage": [["0x4F",1]]
+    },
+
+    { "name": "roll_out_right2",
+      "parent": "roll_out_right1",
+      "layout": [37,3],
+      "dma": [10,17],
+      "usage": [["0x4F",2]]
+    },
+
+    { "name": "roll_out_right3",
+      "parent": "roll_out_right1",
+      "layout": [37,4],
+      "dma": [10,18],
+      "usage": [["0x4F",3]]
+    },
+
+    { "name": "roll_out_right4",
+      "parent": "roll_out_right1",
+      "layout": [37,5],
+      "dma": [10,19],
+      "usage": [["0x4F",4]]
+    },
+
+    { "name": "roll_out_right5",
+      "parent": "roll_out_right1",
+      "layout": [37,6],
+      "dma": [10,20],
+      "usage": [["0x4F",5]]
+    },
+
+    { "name": "roll_out_right6",
+      "parent": "roll_out_right1",
+      "layout": [37,7],
+      "dma": [10,21],
+      "usage": [["0x4F",6]]
+    },
+
+    { "name": "roll_out_right7",
+      "parent": "roll_out_right1",
+      "layout": [37,8],
+      "dma": [10,22],
+      "usage": [["0x4F",7]]
+    },
+
+    { "name": "roll_out_right8",
+      "parent": "roll_out_right1",
+      "layout": [37,9],
+      "dma": [10,23],
+      "usage": [["0x4F",8]]
+    },
+
+    { "name": "roll_out_right9",
+      "parent": "roll_out_right1",
+      "layout": [37,10],
+      "dma": [10,24],
+      "usage": [["0x4F",9]]
+    },
+
+    { "name": "morph_left",
+      "layout": [42,-10],
+      "shift": [0,-4],
+      "dimensions": [-16,-19,16,13],
+      "palette range": [0,15],
+      "dma": [4,25],
+      "force table": "upper",
+      "usage": [["0x38",0],["0x3E",1],["0xD8",2],["0xE9",1],["0xD4",1],["0xD4",3],["0xD4",12],["0xD4",13]]
+    },
+
+    { "name": "morph_left1",
+      "layout": [42,-9],
+      "shift": [0,-2],
+      "dimensions": [-16,-13,16,11],
+      "palette range": [0,15],
+      "dma": [4,26],
+      "force table": "upper",
+      "usage": [["0x38",1],["0x3E",0],["0xD8",1],["0xE9",0],["0xD4",0]]
+    },
+
+    { "name": "morph_right",
+      "layout": [42,10],
+      "shift": [0,-4],
+      "dimensions": [-16,-19,16,13],
+      "palette range": [0,15],
+      "dma": [10,25],
+      "usage": [["0x37",0],["0x3D",1],["0xD7",2],["0xE8",2],["0xD3",1],["0xD3",3],["0xD3",12],["0xD3",13]]
+    },
+
+    { "name": "morph_right1",
+      "layout": [42,9],
+      "shift": [0,-2],
+      "dimensions": [-16,-13,16,11],
+      "palette range": [0,15],
+      "dma": [10,26],
+      "usage": [["0x37",1],["0x3D",0],["0xD7",1],["0xE8",1],["0xD3",0]]
+    },
+
+    { "name": "bonk_left",
+      "layout": [36,1],
+      "dimensions": [-19,-24,13,32],
+      "palette range": [0,15],
+      "dma": [4,27],
+      "usage": [["0x54",0],["0xD8",4],["0xE9",2],["0xE9",4]]
+    },
+
+    { "name": "bonk_left1",
+      "parent": "bonk_left",
+      "layout": [36,2],
+      "dma": [4,28],
+      "usage": [["0x54",1],["0xD8",5]]
+    },
+
+    { "name": "bonk_right",
+      "layout": [36,-1],
+      "dimensions": [-13,-24,19,32],
+      "palette range": [0,15],
+      "dma": [10,27],
+      "usage": [["0x53",0],["0xD7",4],["0xE8",3],["0xE8",5]]
+    },
+
+    { "name": "bonk_right1",
+      "parent": "bonk_right",
+      "layout": [36,-2],
+      "dma": [10,28],
+      "usage": [["0x53",1],["0xD7",5]]
+    },
+
+    { "name": "crouch_left_aim_up",
+      "layout": [11,-3],
+      "dimensions": [-19,-32,13,16],
+      "palette range": [0,15],
+      "dma": [12,2],
+      "usage": [["0x86",1]]
+    },
+
+    { "name": "crouch_left_aim_diag_up",
+      "layout": [11,-2],
+      "dimensions": [-27,-24,13,16],
+      "palette range": [0,15],
+      "dma": [12,3],
+      "usage": [["0x72",0],["0x86",0]]
+    },
+
+    { "name": "crouch_left_aim_diag_down",
+      "layout": [13,-2],
+      "dimensions": [-27,-24,13,16],
+      "palette range": [0,15],
+      "dma": [12,4],
+      "usage": [["0x74",0],["0xB7",0]]
+    },
+
+    { "name": "crouch_right_aim_up",
+      "layout": [11,3],
+      "dimensions": [-13,-32,19,16],
+      "palette range": [0,15],
+      "dma": [12,30],
+      "usage": [["0x85",1]]
+    },
+
+    { "name": "crouch_right_aim_diag_up",
+      "layout": [11,2],
+      "dimensions": [-13,-24,27,16],
+      "palette range": [0,15],
+      "dma": [12,31],
+      "usage": [["0x71",0],["0x85",0]]
+    },
+
+    { "name": "crouch_right_aim_diag_down",
+      "layout": [13,2],
+      "dimensions": [-13,-24,27,16],
+      "palette range": [0,15],
+      "dma": [12,32],
+      "usage": [["0x73",0],["0xB6",0]]
+    },
+
+    { "name": "sparks_left",
+      "layout": [41,-9],
+      "dimensions": [-12,-18,12,-10],
+      "dimensions+": [[-12,10,12,18],[-18,-11,-10,13],[10,-11,18,13],[-16,-15,-8,-7],[8,-15,16,-7],[-15,7,-7,15],[7,7,15,15]],
+      "palette range": [0,15],
+      "dma": [4,29],
+      "force table": "upper",
+      "import table": "upper",
+      "usage": [
+        ["0x82",2],["0x82",3],["0x84",23],["0x84",24],["0x84",25],["0x82",1],
+        ["0x82",24],["0x82",29],["0x82",30],["0x82",31],["0x84",50],["0x84",51],["0x84",52]
+      ]
+    },
+
+    { "name": "sparks_left1",
+      "parent": "sparks_left",
+      "layout": [41,-10],
+      "dma": [4,30],
+      "usage": [
+        ["0x82",7],["0x82",8],["0x82",9],["0x84",29],["0x84",30],["0x84",31],
+        ["0x82",35],["0x82",36],["0x82",37],["0x84",56],["0x84",57],["0x84",58]
+      ]
+    },
+
+    { "name": "sparks_left2",
+      "parent": "sparks_left",
+      "layout": [41,-11],
+      "dma": [4,31],
+      "usage": [
+        ["0x82",13],["0x82",14],["0x82",15],["0x84",35],["0x84",36],["0x84",37],
+        ["0x82",41],["0x82",42],["0x82",43],["0x84",62],["0x84",63],["0x84",64]
+      ]
+    },
+
+    { "name": "sparks_left3",
+      "parent": "sparks_left",
+      "layout": [41,-12],
+      "dma": [4,32],
+      "usage": [
+        ["0x82",19],["0x82",20],["0x82",21],["0x84",41],["0x84",42],["0x84",43],
+        ["0x82",47],["0x82",48],["0x82",49],["0x84",68],["0x84",69],["0x84",70]
+      ]
+    },
+
+    { "name": "sparks_right",
+      "parent": "sparks_left",
+      "layout": [41,9],
+      "dma": [10,29],
+      "usage": [
+        ["0x81",2],["0x81",3],["0x83",23],["0x83",24],["0x83",25],["0x81",1],
+        ["0x81",25],["0x81",29],["0x81",30],["0x81",31],["0x83",50],["0x83",51],["0x83",52]
+      ]
+    },
+
+    { "name": "sparks_right1",
+      "parent": "sparks_right",
+      "layout": [41,10],
+      "dma": [10,30],
+      "usage": [
+        ["0x81",7],["0x81",8],["0x81",9],["0x83",29],["0x83",30],["0x83",31],
+        ["0x81",35],["0x81",36],["0x81",37],["0x83",56],["0x83",57],["0x83",58]
+      ]
+    },
+
+    { "name": "sparks_right2",
+      "parent": "sparks_right",
+      "layout": [41,11],
+      "dma": [10,31],
+      "usage": [
+        ["0x81",13],["0x81",14],["0x81",15],["0x83",35],["0x83",36],["0x83",37],
+        ["0x81",41],["0x81",42],["0x81",43],["0x83",62],["0x83",63],["0x83",64]
+      ]
+    },
+
+    { "name": "sparks_right3",
+      "parent": "sparks_right",
+      "layout": [41,12],
+      "dma": [10,32],
+      "usage": [
+        ["0x81",19],["0x81",20],["0x81",21],["0x83",41],["0x83",42],["0x83",43],
+        ["0x81",47],["0x81",48],["0x81",49],["0x83",68],["0x83",69],["0x83",70]
+      ]
+    },
+
+    { "name": "fall_turn_left",
+      "parent": "fall_turn_neutral",
+      "layout": [30,-1],
+      "dma": [4,33],
+      "usage": [["0x87",2],["0x88",0]]
+    },
+
+    { "name": "fall_turn_neutral",
+      "layout": [30,0],
+      "dimensions": [-16,-27,16,29],
+      "palette range": [0,15],
+      "dma": [13,7],
+      "usage": [["0x87",1],["0x88",1]]
+    },
+
+    { "name": "fall_turn_right",
+      "parent": "fall_turn_neutral",
+      "layout": [30,1],
+      "dma": [10,33],
+      "usage": [["0x87",0],["0x88",2]]
+    },
+
+    { "name": "fall_turn_left_aim_up",
+      "parent": "fall_turn_neutral_aim_up",
+      "layout": [29,-1],
+      "dma": [4,34],
+      "usage": [["0x93",2],["0x94",0],["0xA0",2],["0xA1",0]]
+    },
+
+    { "name": "fall_turn_neutral_aim_up",
+      "parent": "fall_turn_neutral",
+      "layout": [29,0],
+      "dma": [13,8],
+      "usage": [["0x93",1],["0x94",1],["0xA0",1],["0xA1",1]]
+    },
+
+    { "name": "fall_turn_right_aim_up",
+      "parent": "fall_turn_neutral_aim_up",
+      "layout": [29,1],
+      "dma": [10,34],
+      "usage": [["0x93",0],["0x94",2],["0xA0",0],["0xA1",2]]
+    },
+
+    { "name": "fall_turn_left_aim_down",
+      "parent": "fall_turn_neutral_aim_down",
+      "layout": [31,-1],
+      "dma": [4,35],
+      "usage": [["0x95",2],["0x96",0]]
+    },
+
+    { "name": "fall_turn_neutral_aim_down",
+      "parent": "fall_turn_neutral",
+      "layout": [31,0],
+      "dma": [13,9],
+      "usage": [["0x95",1],["0x96",1]]
+    },
+
+    { "name": "fall_turn_right_aim_down",
+      "parent": "fall_turn_neutral_aim_down",
+      "layout": [31,1],
+      "dma": [10,35],
+      "usage": [["0x95",0],["0x96",2]]
+    },
+
+    { "name": "crouch_turn_left_aim_up",
+      "parent": "crouch_turn_neutral_aim_up",
+      "layout": [11,-1],
+      "dma": [4,36],
+      "usage": [["0x97",2],["0x98",0],["0xA2",2],["0xA3",0]]
+    },
+
+    { "name": "crouch_turn_neutral_aim_up",
+      "parent": "crouch_turn_neutral",
+      "layout": [11,0],
+      "dma": [13,11],
+      "usage": [["0x97",1],["0x98",1],["0xA2",1],["0xA3",1]]
+    },
+
+    { "name": "crouch_turn_right_aim_up",
+      "parent": "crouch_turn_neutral_aim_up",
+      "layout": [11,1],
+      "dma": [10,36],
+      "usage": [["0x97",0],["0x98",2],["0xA2",0],["0xA3",2]]
+    },
+
+    { "name": "crouch_turn_left_aim_down",
+      "parent": "crouch_turn_neutral_aim_down",
+      "layout": [13,-1],
+      "dma": [4,37],
+      "usage": [["0x99",2],["0x9A",0]]
+    },
+
+    { "name": "crouch_turn_neutral_aim_down",
+      "parent": "crouch_turn_neutral",
+      "layout": [13,0],
+      "dma": [13,12],
+      "usage": [["0x99",1],["0x9A",1]]
+    },
+
+    { "name": "crouch_turn_right_aim_down",
+      "parent": "crouch_turn_neutral_aim_down",
+      "layout": [13,1],
+      "dma": [10,37],
+      "usage": [["0x99",0],["0x9A",2]]
+    },
+
+    { "name": "grabbed_left",
+      "layout": [35,-1],
+      "dimensions": [-19,-24,13,32],
+      "palette range": [0,15],
+      "dma": [4,38],
+      "usage": [["0xBA",0]]
+    },
+
+    { "name": "grabbed_left_aim_diag_up",
+      "parent": "grabbed_left",
+      "layout": [35,-2],
+      "dma": [5,0],
+      "usage": [["0xBB",0]]
+    },
+
+    { "name": "grabbed_left_shoot",
+      "parent": "grabbed_left",
+      "layout": [35,-3],
+      "dma": [5,1],
+      "usage": [["0xBC",0]]
+    },
+
+    { "name": "grabbed_left_aim_diag_down",
+      "parent": "grabbed_left",
+      "layout": [35,-4],
+      "dma": [5,2],
+      "usage": [["0xBD",0]]
+    },
+
+    { "name": "grabbed_left_struggling",
+      "parent": "grabbed_left",
+      "layout": [35,-5],
+      "dma": [5,3],
+      "usage": [["0xBE",0]]
+    },
+
+    { "name": "grabbed_left_struggling1",
+      "parent": "grabbed_left_struggling",
+      "layout": [35,-6],
+      "dma": [5,4],
+      "usage": [["0xBE",1]]
+    },
+
+    { "name": "grabbed_left_struggling2",
+      "parent": "grabbed_left_struggling",
+      "layout": [35,-7],
+      "dma": [5,5],
+      "usage": [["0xBE",2]]
+    },
+
+    { "name": "grabbed_left_struggling3",
+      "parent": "grabbed_left_struggling",
+      "layout": [35,-8],
+      "dma": [5,6],
+      "usage": [["0xBE",3]]
+    },
+
+    { "name": "grabbed_left_struggling4",
+      "parent": "grabbed_left_struggling",
+      "layout": [35,-9],
+      "dma": [5,7],
+      "usage": [["0xBE",4]]
+    },
+
+    { "name": "grabbed_left_struggling5",
+      "parent": "grabbed_left_struggling",
+      "layout": [35,-10],
+      "dma": [5,8],
+      "usage": [["0xBE",5]]
+    },
+
+    { "name": "grabbed_right",
+      "layout": [35,1],
+      "dimensions": [-13,-24,19,32],
+      "palette range": [0,15],
+      "dma": [10,38],
+      "usage": [["0xEC",0]]
+    },
+
+    { "name": "grabbed_right_aim_diag_up",
+      "parent": "grabbed_right",
+      "layout": [35,2],
+      "dma": [11,0],
+      "usage": [["0xED",0]]
+    },
+
+    { "name": "grabbed_right_shoot",
+      "parent": "grabbed_right",
+      "layout": [35,3],
+      "dma": [11,1],
+      "usage": [["0xEE",0]]
+    },
+
+    { "name": "grabbed_right_aim_diag_down",
+      "parent": "grabbed_right",
+      "layout": [35,4],
+      "dma": [11,2],
+      "usage": [["0xEF",0]]
+    },
+
+    { "name": "grabbed_right_struggling",
+      "parent": "grabbed_right",
+      "layout": [35,5],
+      "dma": [11,3],
+      "usage": [["0xF0",0]]
+    },
+
+    { "name": "grabbed_right_struggling1",
+      "parent": "grabbed_right_struggling",
+      "layout": [35,6],
+      "dma": [11,4],
+      "usage": [["0xF0",1]]
+    },
+
+    { "name": "grabbed_right_struggling2",
+      "parent": "grabbed_right_struggling",
+      "layout": [35,7],
+      "dma": [11,5],
+      "usage": [["0xF0",2]]
+    },
+
+    { "name": "grabbed_right_struggling3",
+      "parent": "grabbed_right_struggling",
+      "layout": [35,8],
+      "dma": [11,6],
+      "usage": [["0xF0",3]]
+    },
+
+    { "name": "grabbed_right_struggling4",
+      "parent": "grabbed_right_struggling",
+      "layout": [35,9],
+      "dma": [11,7],
+      "usage": [["0xF0",4]]
+    },
+
+    { "name": "grabbed_right_struggling5",
+      "parent": "grabbed_right_struggling",
+      "layout": [35,10],
+      "dma": [11,8],
+      "usage": [["0xF0",5]]
+    },
+
+    { "name": "crouch_transition_left",
+      "layout": [11,-6],
+      "shift": [0,-8],
+      "dimensions": [-19,-24,13,24],
+      "palette range": [0,15],
+      "dma": [5,35],
+      "usage": [["0x36", 0],["0x3C",0],["0xEB",5]]
+    },
+
+    { "name": "crouch_transition_left_aim_up",
+      "layout": [11,-4],
+      "shift": [0,-8],
+      "dimensions": [-19,-32,13,24],
+      "palette range": [0,15],
+      "dma": [5,36],
+      "usage": [["0xF2", 0],["0xF8",0]]
+    },
+
+    { "name": "crouch_transition_left_aim_diag_up",
+      "layout": [11,-5],
+      "shift": [0,-8],
+      "dimensions": [-27,-24,13,24],
+      "palette range": [0,15],
+      "dma": [12,0],
+      "usage": [["0xF4", 0],["0xFA",0]]
+    },
+
+    { "name": "crouch_transition_left_aim_diag_down",
+      "layout": [11,-7],
+      "shift": [0,-8],
+      "dimensions": [-27,-24,13,24],
+      "palette range": [0,15],
+      "dma": [12,1],
+      "usage": [["0xF6", 0],["0xFC",0]]
+    },
+
+    { "name": "crouch_transition_right",
+      "layout": [11,6],
+      "shift": [0,-8],
+      "dimensions": [-13,-24,19,24],
+      "palette range": [0,15],
+      "dma": [11,35],
+      "usage": [["0x35", 0],["0x3B",0],["0xEA",5],["0xE8",14]]
+    },
+
+    { "name": "crouch_transition_right_aim_up",
+      "layout": [11,4],
+      "shift": [0,-8],
+      "dimensions": [-13,-32,19,24],
+      "palette range": [0,15],
+      "dma": [11,36],
+      "usage": [["0xF1", 0],["0xF7",0]]
+    },
+
+    { "name": "crouch_transition_right_aim_diag_up",
+      "layout": [11,5],
+      "shift": [0,-8],
+      "dimensions": [-13,-24,27,24],
+      "palette range": [0,15],
+      "dma": [12,28],
+      "usage": [["0xF3", 0],["0xF9",0]]
+    },
+
+    { "name": "crouch_transition_right_aim_diag_down",
+      "layout": [11,7],
+      "shift": [0,-8],
+      "dimensions": [-13,-24,27,24],
+      "palette range": [0,15],
+      "dma": [12,29],
+      "usage": [["0xF5", 0],["0xFB",0]]
+    },
+
+    { "name": "shine_spark_left",
+      "layout": [40,-2],
+      "dimensions": [-16,-20,24,20],
+      "palette range": [0,15],
+      "dma": [12,8],
+      "usage": [["0xCA",0],["0xCE",0]]
+    },
+
+    { "name": "shine_spark_right",
+      "layout": [40,2],
+      "dimensions": [-24,-20,16,20],
+      "palette range": [0,15],
+      "dma": [12,36],
+      "usage": [["0xC9",0],["0xCD",0]]
+    },
+
+    { "name": "shine_spark_vertical_left",
+      "layout": [40,-1],
+      "dimensions": [-16,-24,16,24],
+      "palette range": [0,15],
+      "dma": [12,9],
+      "usage": [["0xCC",0]]
+    },
+
+    { "name": "shine_spark_vertical_right",
+      "layout": [40,1],
+      "dimensions": [-16,-24,16,24],
+      "palette range": [0,15],
+      "dma": [12,37],
+      "usage": [["0xCB",0]]
+    },
+
+    { "name": "crystal_flash_left",
+      "layout": [45,-1],
+      "dimensions": [-12,-21,12,19],
+      "palette range": [60,75],
+      "tilemap setting": [6,3],
+      "dma": [12,10],
+      "force table": "upper",
+      "import table": "upper",
+      "usage": [["0xD4",6],["0xD4",2]]
+    },
+
+    { "name": "crystal_flash_left1",
+      "parent": "crystal_flash_left",
+      "layout": [45,-2],
+      "dma": [12,11],
+      "usage": [["0xD4",7]]
+    },
+
+    { "name": "crystal_flash_left2",
+      "parent": "crystal_flash_left",
+      "layout": [45,-3],
+      "dma": [12,12],
+      "usage": [["0xD4",8]]
+    },
+
+    { "name": "crystal_flash_left3",
+      "parent": "crystal_flash_left",
+      "layout": [45,-4],
+      "dma": [12,13],
+      "usage": [["0xD4",9]]
+    },
+
+    { "name": "crystal_flash_right",
+      "layout": [45,1],
+      "dimensions": [-12,-21,12,19],
+      "palette range": [60,75],
+      "tilemap setting": [6,3],
+      "dma": [12,38],
+      "force table": "upper",
+      "import table": "upper",
+      "usage": [["0xD3",6],["0xD3",2]]
+    },
+
+    { "name": "crystal_flash_right1",
+      "parent": "crystal_flash_right",
+      "layout": [45,2],
+      "dma": [12,39],
+      "usage": [["0xD3",7]]
+    },
+
+    { "name": "crystal_flash_right2",
+      "parent": "crystal_flash_right",
+      "layout": [45,3],
+      "dma": [12,40],
+      "usage": [["0xD3",8]]
+    },
+
+    { "name": "crystal_flash_right3",
+      "parent": "crystal_flash_right",
+      "layout": [45,4],
+      "dma": [12,41],
+      "usage": [["0xD3",9]]
+    },
+
+    { "name": "crystal_bubble_left_small",
+      "parent": "crystal_bubble_left_large",
+      "layout": [45,-7],
+      "dma": [12,14],
+      "usage": [["0xD4",0],["0xD4",13]]
+    },
+
+    { "name": "crystal_bubble_left_medium",
+      "parent": "crystal_bubble_left_large",
+      "layout": [45,-6],
+      "dma": [12,15],
+      "usage": [["0xD4",1],["0xD4",12]]
+    },
+
+    { "name": "crystal_bubble_left_large",
+      "layout": [45,-5],
+      "dimensions": [-32,-32,0,0],
+      "palette range": [60,75],
+      "tilemap setting": [6,3],
+      "dma": [12,16],
+      "force table": "lower",
+      "import table": "lower",
+      "usage": [["0xD4",2],["0xD4",3],["0xD4",6],["0xD4",7],["0xD4",8],["0xD4",9]]
+    },
+
+    { "name": "crystal_bubble_right_small",
+      "parent": "crystal_bubble_right_large",
+      "layout": [45,7],
+      "dma": [12,42],
+      "usage": [["0xD3",0],["0xD3",13]]
+    },
+
+    { "name": "crystal_bubble_right_medium",
+      "parent": "crystal_bubble_right_large",
+      "layout": [45,6],
+      "dma": [12,43],
+      "usage": [["0xD3",1],["0xD3",12]]
+    },
+
+    { "name": "crystal_bubble_right_large",
+      "layout": [45,5],
+      "dimensions": [0,-32,32,0],
+      "palette range": [60,75],
+      "tilemap setting": [6,3],
+      "dma": [12,44],
+      "force table": "lower",
+      "import table": "lower",
+      "usage": [["0xD3",2],["0xD3",3],["0xD3",6],["0xD3",7],["0xD3",8],["0xD3",9]]
+    },
+
+    { "name": "grapple_clockwise",
+      "layout": [49,1],
+      "dimensions": [-24,-17,32,15],
+      "palette range": [0,15],
+      "dma": [5,9],
+      "usage": [["0xB3",23],["0xB3",39],["0xB3",55],["0xB3",7]]
+    },
+
+    { "name": "grapple_clockwise1",
+      "parent": "grapple_clockwise",
+      "layout": [49,2],
+      "dimensions": [-27,-12,29,12],
+      "dimensions+": [[-11,-20,29,-12],[-27,12,21,20]],
+      "dma": [5,10],
+      "usage": [["0xB3",22],["0xB3",38],["0xB3",54],["0xB3",6]]
+    },
+
+    { "name": "grapple_clockwise2",
+      "parent": "grapple_clockwise1",
+      "layout": [49,3],
+      "dma": [5,11],
+      "usage": [["0xB3",21],["0xB3",37],["0xB3",53],["0xB3",5]]
+    },
+
+    { "name": "grapple_clockwise3",
+      "parent": "grapple_clockwise",
+      "layout": [49,4],
+      "dimensions": [-16,-20,16,20],
+      "dimensions+": [[-8,-28,24,-20],[16,-20,24,12],[-24,-12,-16,20]],
+      "dma": [5,12],
+      "usage": [["0xB3",20],["0xB3",36],["0xB3",52],["0xB3",4]]
+    },
+
+    { "name": "grapple_clockwise4",
+      "parent": "grapple_clockwise3",
+      "layout": [49,5],
+      "dma": [5,13],
+      "usage": [["0xB3",19],["0xB3",35],["0xB3",51],["0xB3",3]]
+    },
+
+    { "name": "grapple_clockwise5",
+      "parent": "grapple_clockwise",
+      "layout": [49,6],
+      "dimensions": [-12,-31,20,17],
+      "dimensions+": [[-20,17,12,25],[-20,-15,-12,17]],
+      "dma": [5,14],
+      "usage": [["0xB3",18],["0xB3",34],["0xB3",50],["0xB3",2]]
+    },
+
+    { "name": "grapple_clockwise6",
+      "parent": "grapple_clockwise5",
+      "layout": [49,7],
+      "dma": [5,15],
+      "usage": [["0xB3",17],["0xB3",33],["0xB3",49],["0xB3",1]]
+    },
+
+    { "name": "grapple_clockwise7",
+      "parent": "grapple_clockwise",
+      "layout": [49,8],
+      "dimensions": [-16,-31,16,25],
+      "dma": [5,16],
+      "usage": [["0xB3",16],["0xB3",32],["0xB3",48],["0xB3",0]]
+    },
+
+    { "name": "grapple_clockwise8",
+      "parent": "grapple_clockwise",
+      "layout": [49,9],
+      "dimensions": [-12,-23,20,25],
+      "dimensions+": [[-20,-31,12,-23],[-20,-23,-12,9]],
+      "dma": [5,17],
+      "usage": [["0xB3",15],["0xB3",31],["0xB3",47],["0xB3",63]]
+    },
+
+    { "name": "grapple_clockwise9",
+      "parent": "grapple_clockwise8",
+      "layout": [49,10],
+      "dma": [5,18],
+      "usage": [["0xB3",14],["0xB3",30],["0xB3",46],["0xB3",62]]
+    },
+
+    { "name": "grapple_clockwise10",
+      "parent": "grapple_clockwise",
+      "layout": [49,11],
+      "dimensions": [-27,-19,21,5],
+      "dimensions+": [[-27,-27,13,-19],[-19,5,21,13],[-11,13,21,21]],
+      "dma": [5,19],
+      "usage": [["0xB3",13],["0xB3",29],["0xB3",45],["0xB3",61]]
+    },
+
+    { "name": "grapple_clockwise11",
+      "parent": "grapple_clockwise10",
+      "layout": [49,12],
+      "dma": [5,20],
+      "usage": [["0xB3",12],["0xB3",28],["0xB3",44],["0xB3",60]]
+    },
+
+    { "name": "grapple_clockwise12",
+      "parent": "grapple_clockwise",
+      "layout": [49,13],
+      "dimensions": [-30,-11,26,13],
+      "dimensions+": [[-30,-19,18,-11],[-14,13,26,21]],
+      "dma": [5,21],
+      "usage": [["0xB3",11],["0xB3",27],["0xB3",43],["0xB3",59]]
+    },
+
+    { "name": "grapple_clockwise13",
+      "parent": "grapple_clockwise12",
+      "layout": [49,14],
+      "dma": [5,22],
+      "usage": [["0xB3",10],["0xB3",26],["0xB3",42],["0xB3",58]]
+    },
+
+    { "name": "grapple_clockwise14",
+      "parent": "grapple_clockwise",
+      "layout": [49,15],
+      "dimensions": [-32,-15,24,17],
+      "dma": [5,23],
+      "usage": [["0xB3",9],["0xB3",25],["0xB3",41],["0xB3",57]]
+    },
+
+    { "name": "grapple_clockwise15",
+      "parent": "grapple_clockwise14",
+      "layout": [49,16],
+      "dma": [5,24],
+      "usage": [["0xB3",8],["0xB3",24],["0xB3",40],["0xB3",56]]
+    },
+
+    { "name": "grapple_clockwise_pulled_in",
+      "layout": [49,17],
+      "dimensions": [-16,-31,16,33],
+      "palette range": [0,15],
+      "dma": [5,25],
+      "usage": [["0xB3",64]]
+    },
+
+    { "name": "grapple_clockwise_hanging",
+      "layout": [49,18],
+      "dimensions": [-16,-31,16,33],
+      "palette range": [0,15],
+      "dma": [5,26],
+      "usage": [["0xB3",65]]
+    },
+
+    { "name": "grapple_counterclockwise",
+      "layout": [48,1],
+      "dimensions": [-25,-15,31,17],
+      "palette range": [0,15],
+      "dma": [11,9],
+      "usage": [["0xB2",24],["0xB2",40],["0xB2",56],["0xB2",8]]
+    },
+
+    { "name": "grapple_counterclockwise1",
+      "parent": "grapple_counterclockwise",
+      "layout": [48,2],
+      "dma": [11,10],
+      "usage": [["0xB2",23],["0xB2",39],["0xB2",55],["0xB2",7]]
+    },
+
+    { "name": "grapple_counterclockwise2",
+      "parent": "grapple_counterclockwise",
+      "layout": [48,3],
+      "dimensions": [-24,-11,32,13],
+      "dimensions+": [[-16,-19,32,-11],[-24,13,16,21]],
+      "dma": [11,11],
+      "usage": [["0xB2",22],["0xB2",38],["0xB2",54],["0xB2",6]]
+    },
+
+    { "name": "grapple_counterclockwise3",
+      "parent": "grapple_counterclockwise2",
+      "layout": [48,4],
+      "dma": [11,12],
+      "usage": [["0xB2",21],["0xB2",37],["0xB2",53],["0xB2",5]]
+    },
+
+    { "name": "grapple_counterclockwise4",
+      "parent": "grapple_counterclockwise",
+      "layout": [48,5],
+      "dimensions": [-23,-17,25,7],
+      "dimensions+": [[-15,-25,25,-17],[-23,7,17,15],[-23,15,9,23]],
+      "dma": [11,13],
+      "usage": [["0xB2",20],["0xB2",36],["0xB2",52],["0xB2",4]]
+    },
+
+    { "name": "grapple_counterclockwise5",
+      "parent": "grapple_counterclockwise4",
+      "layout": [48,6],
+      "dma": [11,14],
+      "usage": [["0xB2",19],["0xB2",35],["0xB2",51],["0xB2",3]]
+    },
+
+    { "name": "grapple_counterclockwise6",
+      "parent": "grapple_counterclockwise",
+      "layout": [48,7],
+      "dimensions": [-20,-22,12,26],
+      "dimensions+": [[-12,-30,20,-22],[12,-22,20,10]],
+      "dma": [11,15],
+      "usage": [["0xB2",18],["0xB2",34],["0xB2",50],["0xB2",2]]
+    },
+
+    { "name": "grapple_counterclockwise7",
+      "parent": "grapple_counterclockwise6",
+      "layout": [48,8],
+      "dma": [11,16],
+      "usage": [["0xB2",17],["0xB2",33],["0xB2",49],["0xB2",1]]
+    },
+
+    { "name": "grapple_counterclockwise8",
+      "parent": "grapple_counterclockwise",
+      "layout": [48,9],
+      "dimensions": [-16,-30,16,26],
+      "dma": [11,17],
+      "usage": [["0xB2",16],["0xB2",32],["0xB2",48],["0xB2",0]]
+    },
+
+    { "name": "grapple_counterclockwise9",
+      "parent": "grapple_counterclockwise",
+      "layout": [48,10],
+      "dimensions": [-20,-30,12,18],
+      "dimensions+": [[-12,18,20,26],[12,-14,20,18]],
+      "dma": [11,18],
+      "usage": [["0xB2",15],["0xB2",31],["0xB2",47],["0xB2",63]]
+    },
+
+    { "name": "grapple_counterclockwise10",
+      "parent": "grapple_counterclockwise9",
+      "layout": [48,11],
+      "dma": [11,19],
+      "usage": [["0xB2",14],["0xB2",30],["0xB2",46],["0xB2",62]]
+    },
+
+    { "name": "grapple_counterclockwise11",
+      "parent": "grapple_counterclockwise",
+      "layout": [48,12],
+      "dimensions": [-17,-18,15,22],
+      "dimensions+": [[-25,-26,7,-18],[-25,-18,-17,14],[15,-10,23,22]],
+      "dma": [11,20],
+      "usage": [["0xB2",13],["0xB2",29],["0xB2",45],["0xB2",61]]
+    },
+
+    { "name": "grapple_counterclockwise12",
+      "parent": "grapple_counterclockwise11",
+      "layout": [48,13],
+      "dma": [11,21],
+      "usage": [["0xB2",12],["0xB2",28],["0xB2",44],["0xB2",60]]
+    },
+
+    { "name": "grapple_counterclockwise13",
+      "parent": "grapple_counterclockwise",
+      "layout": [48,14],
+      "dimensions": [-30,-12,26,12],
+      "dimensions+": [[-30,-20,10,-12],[-22,12,26,20]],
+      "dma": [11,22],
+      "usage": [["0xB2",11],["0xB2",27],["0xB2",43],["0xB2",59]]
+    },
+
+    { "name": "grapple_counterclockwise14",
+      "parent": "grapple_counterclockwise13",
+      "layout": [48,15],
+      "dma": [11,23],
+      "usage": [["0xB2",10],["0xB2",26],["0xB2",42],["0xB2",58]]
+    },
+
+    { "name": "grapple_counterclockwise15",
+      "parent": "grapple_counterclockwise",
+      "layout": [48,16],
+      "dimensions": [-31,-17,25,15],
+      "dma": [11,24],
+      "usage": [["0xB2",9],["0xB2",25],["0xB2",41],["0xB2",57]]
+    },
+
+    { "name": "grapple_counterclockwise_pulled_in",
+      "layout": [48,17],
+      "dimensions": [-16,-30,16,34],
+      "palette range": [0,15],
+      "dma": [11,25],
+      "usage": [["0xB2",64]]
+    },
+
+    { "name": "grapple_counterclockwise_hanging",
+      "layout": [48,18],
+      "dimensions": [-16,-30,16,34],
+      "palette range": [0,15],
+      "dma": [11,26],
+      "usage": [["0xB2",65]]
+    },
+
+    { "name": "supplication_left",
+      "parent": "crouch_left",
+      "layout": [46,-1],
+      "dma": [12,17],
+      "usage": [["0xE9",8],["0xE9",26],["0xE9",29]]
+    },
+
+    { "name": "supplication_left1",
+      "parent": "supplication_left",
+      "layout": [46,-2],
+      "dma": [12,18],
+      "usage": [["0xE9",9]]
+    },
+
+    { "name": "supplication_left2",
+      "parent": "supplication_left",
+      "layout": [46,-3],
+      "dma": [12,19],
+      "usage": [["0xE9",10]]
+    },
+
+    { "name": "supplication_left3",
+      "parent": "supplication_left",
+      "layout": [46,-4],
+      "dma": [12,20],
+      "usage": [["0xE9",11]]
+    },
+
+    { "name": "supplication_look_up_left",
+      "parent": "crouch_left",
+      "layout": [46,-5],
+      "dma": [12,21],
+      "usage": [["0xEB",0]]
+    },
+
+    { "name": "supplication_look_up_left1",
+      "parent": "supplication_look_up_left",
+      "layout": [46,-6],
+      "dma": [12,22],
+      "usage": [["0xEB",1]]
+    },
+
+    { "name": "supplication_look_up_left2",
+      "parent": "supplication_look_up_left",
+      "layout": [46,-7],
+      "dma": [12,23],
+      "usage": [["0xEB",2]]
+    },
+
+    { "name": "supplication_look_up_left3",
+      "parent": "supplication_look_up_left",
+      "layout": [46,-8],
+      "dma": [12,24],
+      "usage": [["0xEB",3]]
+    },
+
+    { "name": "supplication_right",
+      "parent": "crouch_right",
+      "layout": [46,1],
+      "dma": [12,45],
+      "usage": [["0xE8",8]]
+    },
+
+    { "name": "supplication_right1",
+      "parent": "supplication_right",
+      "layout": [46,2],
+      "dma": [12,46],
+      "usage": [["0xE8",9]]
+    },
+
+    { "name": "supplication_right2",
+      "parent": "supplication_right",
+      "layout": [46,3],
+      "dma": [12,47],
+      "usage": [["0xE8",10]]
+    },
+
+    { "name": "supplication_right3",
+      "parent": "supplication_right",
+      "layout": [46,4],
+      "dma": [12,48],
+      "usage": [["0xE8",11]]
+    },
+
+    { "name": "supplication_look_up_right",
+      "parent": "crouch_right",
+      "layout": [46,5],
+      "dma": [13,0],
+      "usage": [["0xEA",0]]
+    },
+
+    { "name": "supplication_look_up_right1",
+      "parent": "supplication_look_up_right",
+      "layout": [46,6],
+      "dma": [13,1],
+      "usage": [["0xEA",1]]
+    },
+
+    { "name": "supplication_look_up_right2",
+      "parent": "supplication_look_up_right",
+      "layout": [46,7],
+      "dma": [13,2],
+      "usage": [["0xEA",2]]
+    },
+
+    { "name": "supplication_look_up_right3",
+      "parent": "supplication_look_up_right",
+      "layout": [46,8],
+      "dma": [13,3],
+      "usage": [["0xEA",3]]
+    },
+
+    { "name": "supplication_left_collapse",
+      "parent": "crouch_transition_left",
+      "layout": [47,1],
+      "shift": [0,0],
+      "dimensions": [-19,-19,13,29],
+      "dma": [13,13],
+      "usage": [["0xE9",7]]
+    },
+
+    { "name": "supplication_left_stand_attempt",
+      "parent": "stand_left",
+      "layout": [47,2],
+      "shift": [0,9],
+      "dimensions": [-19,-28,13,20],
+      "dma": [13,14],
+      "usage": [["0xE9",14],["0xE9",19],["0xE9",23]]
+    },
+
+    { "name": "supplication_left_stand_attempt1",
+      "parent": "supplication_left_stand_attempt",
+      "layout": [47,3],
+      "shift": [0,2],
+      "dimensions": [-19,-21,13,27],
+      "dma": [13,15],
+      "usage": [["0xE9", 15],["0xE9",20],["0xE9",22]]
+    },
+
+    { "name": "supplication_left_stand_attempt2",
+      "parent": "supplication_left_stand_attempt",
+      "layout": [47,4],
+      "shift": [0,0],
+      "dimensions": [-19,-19,13,29],
+      "dma": [13,16],
+      "usage": [["0xE9", 16],["0xE9",21]]
+    },
+
+    { "name": "death_left",
+      "layout": [50,-1],
+      "dimensions": [-12,-32,20,32],
+      "palette range": [0,15],
+      "usage": [["death_left", 0]]
+    },
+
+    { "name": "death_left1",
+      "parent": "death_left",
+      "layout": [50,-2],
+      "palette range": [45,60],
+      "tilemap setting": [7,2],
+      "force table": "lower",
+      "import table": "lower",
+      "usage": [["death_left", 1]]
+    },
+
+    { "name": "death_left2",
+      "parent": "death_left1",
+      "layout": [50,-3],
+      "usage": [["death_left", 2]]
+    },
+
+    { "name": "death_left3",
+      "parent": "death_left1",
+      "layout": [50,-4],
+      "usage": [["death_left", 3]]
+    },
+
+    { "name": "death_left4",
+      "parent": "death_left1",
+      "layout": [50,-5],
+      "usage": [["death_left", 4]]
+    },
+
+    { "name": "death_left5",
+      "parent": "death_left1",
+      "layout": [50,-6],
+      "usage": [["death_left", 5]]
+    },
+
+    { "name": "death_left6",
+      "parent": "death_left1",
+      "layout": [50,-7],
+      "usage": [["death_left", 6],["death_left", 7]]
+    },
+
+    { "name": "death_left7",
+      "parent": "death_left1",
+      "layout": [50,-8],
+      "usage": [["death_left", 8]]
+    },
+
+    { "name": "death_right",
+      "layout": [50,1],
+      "dimensions": [-20,-32,12,32],
+      "palette range": [0,15],
+      "usage": [["death_right", 0]]
+    },
+
+    { "name": "death_left_pieces",
+      "layout": [51,-1],
+      "dimensions": [-9,-25,15,23],
+      "palette range": [0,15],
+      "force table": "upper",
+      "import table": "upper",
+      "usage": [["death_left", 1]]
+    },
+
+    { "name": "death_left_pieces1",
+      "parent": "death_left_pieces",
+      "layout": [51,-2],
+      "dimensions": [-12,-25,20,23],
+      "usage": [["death_left", 2]]
+    },
+
+    { "name": "death_left_pieces2",
+      "parent": "death_left_pieces",
+      "layout": [51,-3],
+      "dimensions": [-18,-35,22,29],
+      "usage": [["death_left", 3]]
+    },
+
+    { "name": "death_left_pieces3",
+      "parent": "death_left_pieces",
+      "layout": [51,-4],
+      "dimensions": [-26,-42,30,38],
+      "usage": [["death_left", 4]]
+    },
+
+    { "name": "death_left_pieces4",
+      "parent": "death_left_pieces",
+      "layout": [51,-5],
+      "dimensions": [-36,-45,36,43],
+      "usage": [["death_left", 5]]
+    },
+
+    { "name": "death_right1",
+      "parent": "death_right",
+      "layout": [50,2],
+      "palette range": [45,60],
+      "tilemap setting": [7,2],
+      "force table": "lower",
+      "import table": "lower",
+      "usage": [["death_right", 1]]
+    },
+
+    { "name": "death_right2",
+      "parent": "death_right1",
+      "layout": [50,3],
+      "usage": [["death_right", 2]]
+    },
+
+    { "name": "death_right3",
+      "parent": "death_right1",
+      "layout": [50,4],
+      "usage": [["death_right", 3]]
+    },
+
+    { "name": "death_right4",
+      "parent": "death_right1",
+      "layout": [50,5],
+      "usage": [["death_right", 4]]
+    },
+
+    { "name": "death_right5",
+      "parent": "death_right1",
+      "layout": [50,6],
+      "usage": [["death_right", 5]]
+    },
+
+    { "name": "death_right6",
+      "parent": "death_right1",
+      "layout": [50,7],
+      "usage": [["death_right", 6],["death_right", 7]]
+    },
+
+    { "name": "death_right7",
+      "parent": "death_right1",
+      "layout": [50,8],
+      "usage": [["death_right", 8]]
+    },
+
+    { "name": "death_right_pieces",
+      "layout": [51,1],
+      "dimensions": [-15,-25,9,23],
+      "palette range": [0,15],
+      "force table": "upper",
+      "import table": "upper",
+      "usage": [["death_right", 1]]
+    },
+
+    { "name": "death_right_pieces1",
+      "parent": "death_right_pieces",
+      "layout": [51,2],
+      "dimensions": [-20,-25,12,23],
+      "usage": [["death_right", 2]]
+    },
+
+    { "name": "death_right_pieces2",
+      "parent": "death_right_pieces",
+      "layout": [51,3],
+      "dimensions": [-22,-35,18,29],
+      "usage": [["death_right", 3]]
+    },
+
+    { "name": "death_right_pieces3",
+      "parent": "death_right_pieces",
+      "layout": [51,4],
+      "dimensions": [-30,-42,26,38],
+      "usage": [["death_right", 4]]
+    },
+
+    { "name": "death_right_pieces4",
+      "parent": "death_right_pieces",
+      "layout": [51,5],
+      "dimensions": [-36,-45,36,43],
+      "usage": [["death_right", 5]]
+    }
+  ]
+}
