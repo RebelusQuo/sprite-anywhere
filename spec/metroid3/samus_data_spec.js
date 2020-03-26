@@ -1,23 +1,30 @@
 import chai from 'chai';
-chai.should();
+const should = chai.should();
 
 import map from 'lodash/map';
 import mapValues from 'lodash/mapValues';
 import filter from 'lodash/filter';
-import groupBy from 'lodash/groupBy';
+import each from 'lodash/each';
 import orderBy from 'lodash/orderBy';
 import transform from 'lodash/transform';
 
-import samus from '../../src/metroid3/samus.json';
+import samus from '../../src/metroid3/samus/sheet.json';
+import Sheet from '../../src/sheet';
 
-describe('Samus data structure', () => {
+describe('Samus sheet data', () => {
+
+    it('has dimensions for all poses, thus no circular dependencies', () => {
+        const images = new Sheet(samus).images;
+
+        should.exist(images);
+        images.should.be.an('array');
+        each(images, image => image.should.have.property('dimensions'));
+    });
 
     it('has the correct sheet layout', () => {
         const expected = require('./samus_layout.json');
 
-        let layout = orderBy(samus.images, ['layout[0]', 'layout[1]']);
-        layout = groupBy(layout, 'layout[0]');
-        layout = transform(layout, (a, v, k) => a[k] = v, []);
+        const layout = new Sheet(samus).layout;
 
         const actual = map(layout, x => map(x, 'name'));
         actual.should.deep.equal(expected);
@@ -26,13 +33,7 @@ describe('Samus data structure', () => {
     it('has the correct usage association', () => {
         const expected = require('./samus_usage.json');
 
-        const usage = transform(samus.images, (a, image) => {
-            for (const [anim, pose] of image.usage) {
-                const poses = a[anim] || (a[anim] = {});
-                const images = poses[pose] || (poses[pose] = []);
-                images.push(image);
-            }
-        }, {});
+        const usage = new Sheet(samus).usage;
 
         const actual = mapValues(usage, x => mapValues(x, y => map(y, 'name')));
         actual.should.deep.equal(expected);

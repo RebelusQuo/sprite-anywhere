@@ -16,11 +16,12 @@ modification (e.g. screw attack).
 - `layout`  
   The row, column position of the image on the sprite sheet.
 - `scale`  
-  ?
+  Integer up scale when rendered in the sprite sheet.
 - `shift`  
-  ?
+  Vertical shift for the purpose of alignement in the sprite sheet (applied after `scale`).
 - `spacing`  
-  Extra distance to the next image along the horizontal axis.
+  Extra distance to the next image along the horizontal axis (negative on the left side, positive on the right side).
+  Assumed to be zero if missing, not accessed from a parent.
 - `dimensions`  
   The main dimensions of this image around an origio which denote the middle of the sprite in-game.
 - `dimensions+`  
